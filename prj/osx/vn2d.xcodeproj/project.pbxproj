@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0186F86187E5D0400C9ACAE /* vnAABox2.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F69187E5D0300C9ACAE /* vnAABox2.h */; };
+		B0186F87187E5D0400C9ACAE /* vnAllocatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6A187E5D0300C9ACAE /* vnAllocatedObject.h */; };
+		B0186F88187E5D0400C9ACAE /* vnAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6B187E5D0300C9ACAE /* vnAssert.h */; };
+		B0186F89187E5D0400C9ACAE /* vnAtomic.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6C187E5D0300C9ACAE /* vnAtomic.h */; };
+		B0186F8A187E5D0400C9ACAE /* vnBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6D187E5D0300C9ACAE /* vnBuffer.h */; };
+		B0186F8B187E5D0400C9ACAE /* vnDataStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6E187E5D0300C9ACAE /* vnDataStream.h */; };
+		B0186F8C187E5D0400C9ACAE /* vnFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F6F187E5D0300C9ACAE /* vnFileManager.h */; };
+		B0186F8D187E5D0400C9ACAE /* vnFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F70187E5D0300C9ACAE /* vnFilePath.h */; };
+		B0186F8E187E5D0400C9ACAE /* vnFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F71187E5D0300C9ACAE /* vnFileSystem.h */; };
+		B0186F8F187E5D0400C9ACAE /* vnFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F72187E5D0300C9ACAE /* vnFunction.h */; };
+		B0186F90187E5D0400C9ACAE /* vnFunction0.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F73187E5D0300C9ACAE /* vnFunction0.h */; };
+		B0186F91187E5D0400C9ACAE /* vnFunction1.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F74187E5D0300C9ACAE /* vnFunction1.h */; };
+		B0186F92187E5D0400C9ACAE /* vnFunction2.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F75187E5D0300C9ACAE /* vnFunction2.h */; };
+		B0186F93187E5D0400C9ACAE /* vnFunction3.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F76187E5D0300C9ACAE /* vnFunction3.h */; };
+		B0186F94187E5D0400C9ACAE /* vnFunction4.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F77187E5D0300C9ACAE /* vnFunction4.h */; };
+		B0186F95187E5D0400C9ACAE /* vnFunctionBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F78187E5D0300C9ACAE /* vnFunctionBase.h */; };
+		B0186F96187E5D0400C9ACAE /* vnLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F79187E5D0300C9ACAE /* vnLog.h */; };
+		B0186F97187E5D0400C9ACAE /* vnMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7A187E5D0300C9ACAE /* vnMath.h */; };
+		B0186F98187E5D0400C9ACAE /* vnMatrix2.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7B187E5D0300C9ACAE /* vnMatrix2.h */; };
+		B0186F99187E5D0400C9ACAE /* vnMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7C187E5D0300C9ACAE /* vnMemory.h */; };
+		B0186F9A187E5D0400C9ACAE /* vnMemoryTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7D187E5D0300C9ACAE /* vnMemoryTracker.h */; };
+		B0186F9B187E5D0400C9ACAE /* vnPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7E187E5D0300C9ACAE /* vnPlatform.h */; };
+		B0186F9C187E5D0400C9ACAE /* vnRefCounted.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F7F187E5D0400C9ACAE /* vnRefCounted.h */; };
+		B0186F9D187E5D0400C9ACAE /* vnSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F80187E5D0400C9ACAE /* vnSingleton.h */; };
+		B0186F9E187E5D0400C9ACAE /* vnSingletonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F81187E5D0400C9ACAE /* vnSingletonManager.h */; };
+		B0186F9F187E5D0400C9ACAE /* vnTreeData.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F82187E5D0400C9ACAE /* vnTreeData.h */; };
+		B0186FA0187E5D0400C9ACAE /* vnTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F83187E5D0400C9ACAE /* vnTypes.h */; };
+		B0186FA1187E5D0400C9ACAE /* vnUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F84187E5D0400C9ACAE /* vnUnicode.h */; };
+		B0186FA2187E5D0400C9ACAE /* vnVector2.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186F85187E5D0400C9ACAE /* vnVector2.h */; };
+		B0186FA6187E5D4B00C9ACAE /* vnAtomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FA4187E5D4B00C9ACAE /* vnAtomic.cpp */; };
+		B0186FA7187E5D4B00C9ACAE /* vnFileSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FA5187E5D4B00C9ACAE /* vnFileSystem.cpp */; };
+		B0186FB5187E5E4000C9ACAE /* vnAllocatedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FA8187E5E4000C9ACAE /* vnAllocatedObject.cpp */; };
+		B0186FB6187E5E4000C9ACAE /* vnBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FA9187E5E4000C9ACAE /* vnBuffer.cpp */; };
+		B0186FB7187E5E4000C9ACAE /* vnDataStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAA187E5E4000C9ACAE /* vnDataStream.cpp */; };
+		B0186FB8187E5E4000C9ACAE /* vnFileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAB187E5E4000C9ACAE /* vnFileManager.cpp */; };
+		B0186FB9187E5E4000C9ACAE /* vnFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAC187E5E4000C9ACAE /* vnFilePath.cpp */; };
+		B0186FBA187E5E4000C9ACAE /* vnLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAD187E5E4000C9ACAE /* vnLog.cpp */; };
+		B0186FBB187E5E4000C9ACAE /* vnMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAE187E5E4000C9ACAE /* vnMath.cpp */; };
+		B0186FBC187E5E4000C9ACAE /* vnMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FAF187E5E4000C9ACAE /* vnMemory.cpp */; };
+		B0186FBD187E5E4000C9ACAE /* vnMemoryTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FB0187E5E4000C9ACAE /* vnMemoryTracker.cpp */; };
+		B0186FBE187E5E4000C9ACAE /* vnRefCounted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FB1187E5E4000C9ACAE /* vnRefCounted.cpp */; };
+		B0186FBF187E5E4000C9ACAE /* vnSingletonManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FB2187E5E4000C9ACAE /* vnSingletonManager.cpp */; };
+		B0186FC0187E5E4000C9ACAE /* vnTreeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FB3187E5E4000C9ACAE /* vnTreeData.cpp */; };
+		B0186FC1187E5E4000C9ACAE /* vnUnicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FB4187E5E4000C9ACAE /* vnUnicode.cpp */; };
+		B0186FD3187E73E200C9ACAE /* vnLexDef.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FC3187E73E200C9ACAE /* vnLexDef.h */; };
+		B0186FD4187E73E200C9ACAE /* vnLexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FC4187E73E200C9ACAE /* vnLexer.cpp */; };
+		B0186FD5187E73E200C9ACAE /* vnLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FC5187E73E200C9ACAE /* vnLexer.h */; };
+		B0186FD6187E73E200C9ACAE /* vnLexicalAnalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FC6187E73E200C9ACAE /* vnLexicalAnalizer.cpp */; };
+		B0186FD7187E73E200C9ACAE /* vnLexicalAnalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FC7187E73E200C9ACAE /* vnLexicalAnalizer.h */; };
+		B0186FD8187E73E200C9ACAE /* vnLR_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FC8187E73E200C9ACAE /* vnLR_Node.cpp */; };
+		B0186FD9187E73E200C9ACAE /* vnLR_Node.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FC9187E73E200C9ACAE /* vnLR_Node.h */; };
+		B0186FDA187E73E200C9ACAE /* vnLR_Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FCA187E73E200C9ACAE /* vnLR_Parser.cpp */; };
+		B0186FDB187E73E200C9ACAE /* vnLR_Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FCB187E73E200C9ACAE /* vnLR_Parser.h */; };
+		B0186FDC187E73E200C9ACAE /* vnLR_State.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FCC187E73E200C9ACAE /* vnLR_State.h */; };
+		B0186FDD187E73E200C9ACAE /* vnToken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FCD187E73E200C9ACAE /* vnToken.cpp */; };
+		B0186FDE187E73E200C9ACAE /* vnToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FCE187E73E200C9ACAE /* vnToken.h */; };
+		B0186FDF187E73E200C9ACAE /* vnTreeDataScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FCF187E73E200C9ACAE /* vnTreeDataScript.cpp */; };
+		B0186FE0187E73E200C9ACAE /* vnTreeDataScript.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FD0187E73E200C9ACAE /* vnTreeDataScript.h */; };
+		B0186FE1187E73E200C9ACAE /* vnTreeDataScriptProductions.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FD1187E73E200C9ACAE /* vnTreeDataScriptProductions.h */; };
+		B0186FE2187E73E200C9ACAE /* vnTreeDataScriptStates.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0186FD2187E73E200C9ACAE /* vnTreeDataScriptStates.hpp */; };
+		B0186FE5187E761600C9ACAE /* vnNonCopyable.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FE4187E761600C9ACAE /* vnNonCopyable.h */; };
+		B0186FE7187E762900C9ACAE /* vnNonCopyable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FE6187E762900C9ACAE /* vnNonCopyable.cpp */; };
+		B0186FEB187E775300C9ACAE /* vnFastMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FE8187E775300C9ACAE /* vnFastMutex.h */; };
+		B0186FEC187E775300C9ACAE /* vnRecursiveLock.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FE9187E775300C9ACAE /* vnRecursiveLock.h */; };
+		B0186FED187E775300C9ACAE /* vnScopedLock.h in Headers */ = {isa = PBXBuildFile; fileRef = B0186FEA187E775300C9ACAE /* vnScopedLock.h */; };
+		B0186FEF187E777600C9ACAE /* vnFastMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0186FEE187E777600C9ACAE /* vnFastMutex.cpp */; };
+		B0187001187E7BA700C9ACAE /* vnTreeDataParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187000187E7BA700C9ACAE /* vnTreeDataParser.cpp */; };
+		B0187004187E7E5E00C9ACAE /* vnSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187003187E7E5E00C9ACAE /* vnSceneNode.cpp */; };
+		B018700D187E8CBA00C9ACAE /* vnSceneObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018700C187E8CBA00C9ACAE /* vnSceneObject.cpp */; };
+		B0187010187E8DDD00C9ACAE /* vnApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018700F187E8DDD00C9ACAE /* vnApplication.cpp */; };
+		B0187015187E911E00C9ACAE /* vnColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187014187E911E00C9ACAE /* vnColor.h */; };
+		B0187017187E912A00C9ACAE /* vnColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187016187E912A00C9ACAE /* vnColor.cpp */; };
+		B0187019187E927200C9ACAE /* vnTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187018187E927200C9ACAE /* vnTexture.cpp */; };
+		B018701C187E963200C9ACAE /* vnQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018701B187E963200C9ACAE /* vnQuad.cpp */; };
+		B018701E187E97B500C9ACAE /* vnDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018701D187E97B500C9ACAE /* vnDevice.cpp */; };
+		B0187020187E980500C9ACAE /* vnMatrix3.h in Headers */ = {isa = PBXBuildFile; fileRef = B018701F187E980500C9ACAE /* vnMatrix3.h */; };
+		B0187022187E98E100C9ACAE /* vnVector3.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187021187E98E100C9ACAE /* vnVector3.h */; };
+		B0187026187E9AD900C9ACAE /* vnPicture.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187023187E9AD900C9ACAE /* vnPicture.h */; };
+		B0187027187E9AD900C9ACAE /* vnPictureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187024187E9AD900C9ACAE /* vnPictureManager.h */; };
+		B0187028187E9AD900C9ACAE /* vnTextureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187025187E9AD900C9ACAE /* vnTextureManager.h */; };
+		B018702C187E9B8400C9ACAE /* vnPicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187029187E9B8400C9ACAE /* vnPicture.cpp */; };
+		B018702D187E9B8400C9ACAE /* vnPictureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018702A187E9B8400C9ACAE /* vnPictureManager.cpp */; };
+		B018702E187E9B8400C9ACAE /* vnTextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018702B187E9B8400C9ACAE /* vnTextureManager.cpp */; };
+		B0187035187EA58700C9ACAE /* vnApplicationImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187033187EA58700C9ACAE /* vnApplicationImpl.cpp */; };
+		B0187036187EA58700C9ACAE /* vnApplicationImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = B0187034187EA58700C9ACAE /* vnApplicationImpl.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0186F5E187E594D00C9ACAE /* vn2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = vn2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0186F69187E5D0300C9ACAE /* vnAABox2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnAABox2.h; path = ../../inc/vnAABox2.h; sourceTree = "<group>"; };
+		B0186F6A187E5D0300C9ACAE /* vnAllocatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnAllocatedObject.h; path = ../../inc/vnAllocatedObject.h; sourceTree = "<group>"; };
+		B0186F6B187E5D0300C9ACAE /* vnAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnAssert.h; path = ../../inc/vnAssert.h; sourceTree = "<group>"; };
+		B0186F6C187E5D0300C9ACAE /* vnAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnAtomic.h; path = ../../inc/vnAtomic.h; sourceTree = "<group>"; };
+		B0186F6D187E5D0300C9ACAE /* vnBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnBuffer.h; path = ../../inc/vnBuffer.h; sourceTree = "<group>"; };
+		B0186F6E187E5D0300C9ACAE /* vnDataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnDataStream.h; path = ../../inc/vnDataStream.h; sourceTree = "<group>"; };
+		B0186F6F187E5D0300C9ACAE /* vnFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFileManager.h; path = ../../inc/vnFileManager.h; sourceTree = "<group>"; };
+		B0186F70187E5D0300C9ACAE /* vnFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFilePath.h; path = ../../inc/vnFilePath.h; sourceTree = "<group>"; };
+		B0186F71187E5D0300C9ACAE /* vnFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFileSystem.h; path = ../../inc/vnFileSystem.h; sourceTree = "<group>"; };
+		B0186F72187E5D0300C9ACAE /* vnFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction.h; path = ../../inc/vnFunction.h; sourceTree = "<group>"; };
+		B0186F73187E5D0300C9ACAE /* vnFunction0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction0.h; path = ../../inc/vnFunction0.h; sourceTree = "<group>"; };
+		B0186F74187E5D0300C9ACAE /* vnFunction1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction1.h; path = ../../inc/vnFunction1.h; sourceTree = "<group>"; };
+		B0186F75187E5D0300C9ACAE /* vnFunction2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction2.h; path = ../../inc/vnFunction2.h; sourceTree = "<group>"; };
+		B0186F76187E5D0300C9ACAE /* vnFunction3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction3.h; path = ../../inc/vnFunction3.h; sourceTree = "<group>"; };
+		B0186F77187E5D0300C9ACAE /* vnFunction4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunction4.h; path = ../../inc/vnFunction4.h; sourceTree = "<group>"; };
+		B0186F78187E5D0300C9ACAE /* vnFunctionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFunctionBase.h; path = ../../inc/vnFunctionBase.h; sourceTree = "<group>"; };
+		B0186F79187E5D0300C9ACAE /* vnLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLog.h; path = ../../inc/vnLog.h; sourceTree = "<group>"; };
+		B0186F7A187E5D0300C9ACAE /* vnMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnMath.h; path = ../../inc/vnMath.h; sourceTree = "<group>"; };
+		B0186F7B187E5D0300C9ACAE /* vnMatrix2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnMatrix2.h; path = ../../inc/vnMatrix2.h; sourceTree = "<group>"; };
+		B0186F7C187E5D0300C9ACAE /* vnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnMemory.h; path = ../../inc/vnMemory.h; sourceTree = "<group>"; };
+		B0186F7D187E5D0300C9ACAE /* vnMemoryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnMemoryTracker.h; path = ../../inc/vnMemoryTracker.h; sourceTree = "<group>"; };
+		B0186F7E187E5D0300C9ACAE /* vnPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnPlatform.h; path = ../../inc/vnPlatform.h; sourceTree = "<group>"; };
+		B0186F7F187E5D0400C9ACAE /* vnRefCounted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnRefCounted.h; path = ../../inc/vnRefCounted.h; sourceTree = "<group>"; };
+		B0186F80187E5D0400C9ACAE /* vnSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnSingleton.h; path = ../../inc/vnSingleton.h; sourceTree = "<group>"; };
+		B0186F81187E5D0400C9ACAE /* vnSingletonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnSingletonManager.h; path = ../../inc/vnSingletonManager.h; sourceTree = "<group>"; };
+		B0186F82187E5D0400C9ACAE /* vnTreeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnTreeData.h; path = ../../inc/vnTreeData.h; sourceTree = "<group>"; };
+		B0186F83187E5D0400C9ACAE /* vnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnTypes.h; path = ../../inc/vnTypes.h; sourceTree = "<group>"; };
+		B0186F84187E5D0400C9ACAE /* vnUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnUnicode.h; path = ../../inc/vnUnicode.h; sourceTree = "<group>"; };
+		B0186F85187E5D0400C9ACAE /* vnVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnVector2.h; path = ../../inc/vnVector2.h; sourceTree = "<group>"; };
+		B0186FA4187E5D4B00C9ACAE /* vnAtomic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnAtomic.cpp; path = ../../src/osx/vnAtomic.cpp; sourceTree = "<group>"; };
+		B0186FA5187E5D4B00C9ACAE /* vnFileSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnFileSystem.cpp; path = ../../src/osx/vnFileSystem.cpp; sourceTree = "<group>"; };
+		B0186FA8187E5E4000C9ACAE /* vnAllocatedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnAllocatedObject.cpp; path = ../../src/vnAllocatedObject.cpp; sourceTree = "<group>"; };
+		B0186FA9187E5E4000C9ACAE /* vnBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnBuffer.cpp; path = ../../src/vnBuffer.cpp; sourceTree = "<group>"; };
+		B0186FAA187E5E4000C9ACAE /* vnDataStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnDataStream.cpp; path = ../../src/vnDataStream.cpp; sourceTree = "<group>"; };
+		B0186FAB187E5E4000C9ACAE /* vnFileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnFileManager.cpp; path = ../../src/vnFileManager.cpp; sourceTree = "<group>"; };
+		B0186FAC187E5E4000C9ACAE /* vnFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnFilePath.cpp; path = ../../src/vnFilePath.cpp; sourceTree = "<group>"; };
+		B0186FAD187E5E4000C9ACAE /* vnLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnLog.cpp; path = ../../src/vnLog.cpp; sourceTree = "<group>"; };
+		B0186FAE187E5E4000C9ACAE /* vnMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnMath.cpp; path = ../../src/vnMath.cpp; sourceTree = "<group>"; };
+		B0186FAF187E5E4000C9ACAE /* vnMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnMemory.cpp; path = ../../src/vnMemory.cpp; sourceTree = "<group>"; };
+		B0186FB0187E5E4000C9ACAE /* vnMemoryTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnMemoryTracker.cpp; path = ../../src/vnMemoryTracker.cpp; sourceTree = "<group>"; };
+		B0186FB1187E5E4000C9ACAE /* vnRefCounted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnRefCounted.cpp; path = ../../src/vnRefCounted.cpp; sourceTree = "<group>"; };
+		B0186FB2187E5E4000C9ACAE /* vnSingletonManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnSingletonManager.cpp; path = ../../src/vnSingletonManager.cpp; sourceTree = "<group>"; };
+		B0186FB3187E5E4000C9ACAE /* vnTreeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnTreeData.cpp; path = ../../src/vnTreeData.cpp; sourceTree = "<group>"; };
+		B0186FB4187E5E4000C9ACAE /* vnUnicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnUnicode.cpp; path = ../../src/vnUnicode.cpp; sourceTree = "<group>"; };
+		B0186FC3187E73E200C9ACAE /* vnLexDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLexDef.h; path = ../../src/lex/vnLexDef.h; sourceTree = "<group>"; };
+		B0186FC4187E73E200C9ACAE /* vnLexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnLexer.cpp; path = ../../src/lex/vnLexer.cpp; sourceTree = "<group>"; };
+		B0186FC5187E73E200C9ACAE /* vnLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLexer.h; path = ../../src/lex/vnLexer.h; sourceTree = "<group>"; };
+		B0186FC6187E73E200C9ACAE /* vnLexicalAnalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnLexicalAnalizer.cpp; path = ../../src/lex/vnLexicalAnalizer.cpp; sourceTree = "<group>"; };
+		B0186FC7187E73E200C9ACAE /* vnLexicalAnalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLexicalAnalizer.h; path = ../../src/lex/vnLexicalAnalizer.h; sourceTree = "<group>"; };
+		B0186FC8187E73E200C9ACAE /* vnLR_Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnLR_Node.cpp; path = ../../src/lex/vnLR_Node.cpp; sourceTree = "<group>"; };
+		B0186FC9187E73E200C9ACAE /* vnLR_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLR_Node.h; path = ../../src/lex/vnLR_Node.h; sourceTree = "<group>"; };
+		B0186FCA187E73E200C9ACAE /* vnLR_Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnLR_Parser.cpp; path = ../../src/lex/vnLR_Parser.cpp; sourceTree = "<group>"; };
+		B0186FCB187E73E200C9ACAE /* vnLR_Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLR_Parser.h; path = ../../src/lex/vnLR_Parser.h; sourceTree = "<group>"; };
+		B0186FCC187E73E200C9ACAE /* vnLR_State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnLR_State.h; path = ../../src/lex/vnLR_State.h; sourceTree = "<group>"; };
+		B0186FCD187E73E200C9ACAE /* vnToken.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnToken.cpp; path = ../../src/lex/vnToken.cpp; sourceTree = "<group>"; };
+		B0186FCE187E73E200C9ACAE /* vnToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnToken.h; path = ../../src/lex/vnToken.h; sourceTree = "<group>"; };
+		B0186FCF187E73E200C9ACAE /* vnTreeDataScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnTreeDataScript.cpp; path = ../../src/lex/vnTreeDataScript.cpp; sourceTree = "<group>"; };
+		B0186FD0187E73E200C9ACAE /* vnTreeDataScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnTreeDataScript.h; path = ../../src/lex/vnTreeDataScript.h; sourceTree = "<group>"; };
+		B0186FD1187E73E200C9ACAE /* vnTreeDataScriptProductions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnTreeDataScriptProductions.h; path = ../../src/lex/vnTreeDataScriptProductions.h; sourceTree = "<group>"; };
+		B0186FD2187E73E200C9ACAE /* vnTreeDataScriptStates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vnTreeDataScriptStates.hpp; path = ../../src/lex/vnTreeDataScriptStates.hpp; sourceTree = "<group>"; };
+		B0186FE3187E73F800C9ACAE /* vn2dDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vn2dDef.h; path = ../../inc/vn2dDef.h; sourceTree = "<group>"; };
+		B0186FE4187E761600C9ACAE /* vnNonCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnNonCopyable.h; path = ../../inc/vnNonCopyable.h; sourceTree = "<group>"; };
+		B0186FE6187E762900C9ACAE /* vnNonCopyable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnNonCopyable.cpp; path = ../../src/vnNonCopyable.cpp; sourceTree = "<group>"; };
+		B0186FE8187E775300C9ACAE /* vnFastMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnFastMutex.h; path = ../../inc/vnFastMutex.h; sourceTree = "<group>"; };
+		B0186FE9187E775300C9ACAE /* vnRecursiveLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnRecursiveLock.h; path = ../../inc/vnRecursiveLock.h; sourceTree = "<group>"; };
+		B0186FEA187E775300C9ACAE /* vnScopedLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnScopedLock.h; path = ../../inc/vnScopedLock.h; sourceTree = "<group>"; };
+		B0186FEE187E777600C9ACAE /* vnFastMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnFastMutex.cpp; path = ../../src/osx/vnFastMutex.cpp; sourceTree = "<group>"; };
+		B0186FFF187E7B3A00C9ACAE /* vnTreeDataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnTreeDataParser.h; path = ../../inc/vnTreeDataParser.h; sourceTree = "<group>"; };
+		B0187000187E7BA700C9ACAE /* vnTreeDataParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnTreeDataParser.cpp; path = ../../src/vnTreeDataParser.cpp; sourceTree = "<group>"; };
+		B0187002187E7E3B00C9ACAE /* vnSceneNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnSceneNode.h; path = ../../inc/vnSceneNode.h; sourceTree = "<group>"; };
+		B0187003187E7E5E00C9ACAE /* vnSceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnSceneNode.cpp; path = ../../src/vnSceneNode.cpp; sourceTree = "<group>"; };
+		B018700B187E7F8D00C9ACAE /* vnSceneObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnSceneObject.h; path = ../../inc/vnSceneObject.h; sourceTree = "<group>"; };
+		B018700C187E8CBA00C9ACAE /* vnSceneObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnSceneObject.cpp; path = ../../src/vnSceneObject.cpp; sourceTree = "<group>"; };
+		B018700E187E8DA300C9ACAE /* vnApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnApplication.h; path = ../../inc/vnApplication.h; sourceTree = "<group>"; };
+		B018700F187E8DDD00C9ACAE /* vnApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnApplication.cpp; path = ../../src/vnApplication.cpp; sourceTree = "<group>"; };
+		B0187011187E8E8F00C9ACAE /* vnDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnDevice.h; path = ../../inc/vnDevice.h; sourceTree = "<group>"; };
+		B0187012187E906200C9ACAE /* vnVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnVertex.h; path = ../../inc/vnVertex.h; sourceTree = "<group>"; };
+		B0187013187E907200C9ACAE /* vnTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnTexture.h; path = ../../inc/vnTexture.h; sourceTree = "<group>"; };
+		B0187014187E911E00C9ACAE /* vnColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnColor.h; path = ../../inc/vnColor.h; sourceTree = "<group>"; };
+		B0187016187E912A00C9ACAE /* vnColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnColor.cpp; path = ../../src/vnColor.cpp; sourceTree = "<group>"; };
+		B0187018187E927200C9ACAE /* vnTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnTexture.cpp; path = ../../src/vnTexture.cpp; sourceTree = "<group>"; };
+		B018701A187E94E000C9ACAE /* vnQuad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vnQuad.h; path = ../../inc/vnQuad.h; sourceTree = "<group>"; };
+		B018701B187E963200C9ACAE /* vnQuad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnQuad.cpp; path = ../../src/vnQuad.cpp; sourceTree = "<group>"; };
+		B018701D187E97B500C9ACAE /* vnDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnDevice.cpp; path = ../../src/vnDevice.cpp; sourceTree = "<group>"; };
+		B018701F187E980500C9ACAE /* vnMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnMatrix3.h; path = ../../inc/vnMatrix3.h; sourceTree = "<group>"; };
+		B0187021187E98E100C9ACAE /* vnVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnVector3.h; path = ../../inc/vnVector3.h; sourceTree = "<group>"; };
+		B0187023187E9AD900C9ACAE /* vnPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnPicture.h; path = ../../inc/vnPicture.h; sourceTree = "<group>"; };
+		B0187024187E9AD900C9ACAE /* vnPictureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnPictureManager.h; path = ../../inc/vnPictureManager.h; sourceTree = "<group>"; };
+		B0187025187E9AD900C9ACAE /* vnTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnTextureManager.h; path = ../../inc/vnTextureManager.h; sourceTree = "<group>"; };
+		B0187029187E9B8400C9ACAE /* vnPicture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnPicture.cpp; path = ../../src/vnPicture.cpp; sourceTree = "<group>"; };
+		B018702A187E9B8400C9ACAE /* vnPictureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnPictureManager.cpp; path = ../../src/vnPictureManager.cpp; sourceTree = "<group>"; };
+		B018702B187E9B8400C9ACAE /* vnTextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnTextureManager.cpp; path = ../../src/vnTextureManager.cpp; sourceTree = "<group>"; };
+		B0187033187EA58700C9ACAE /* vnApplicationImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vnApplicationImpl.cpp; path = ../../src/osx/vnApplicationImpl.cpp; sourceTree = "<group>"; };
+		B0187034187EA58700C9ACAE /* vnApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnApplicationImpl.h; path = ../../src/osx/vnApplicationImpl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0186F5B187E594D00C9ACAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0186F55187E594D00C9ACAE = {
+			isa = PBXGroup;
+			children = (
+				B0186F68187E5BAF00C9ACAE /* Libraries */,
+				B0186F65187E5B8200C9ACAE /* Include */,
+				B0186F66187E5B8C00C9ACAE /* Source */,
+				B0186F67187E5B9600C9ACAE /* Frameworks */,
+				B0186F5F187E594D00C9ACAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0186F5F187E594D00C9ACAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0186F5E187E594D00C9ACAE /* vn2d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0186F65187E5B8200C9ACAE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B0186FE3187E73F800C9ACAE /* vn2dDef.h */,
+				B0186F69187E5D0300C9ACAE /* vnAABox2.h */,
+				B0186F6A187E5D0300C9ACAE /* vnAllocatedObject.h */,
+				B018700E187E8DA300C9ACAE /* vnApplication.h */,
+				B0186F6B187E5D0300C9ACAE /* vnAssert.h */,
+				B0186F6C187E5D0300C9ACAE /* vnAtomic.h */,
+				B0186F6D187E5D0300C9ACAE /* vnBuffer.h */,
+				B0187014187E911E00C9ACAE /* vnColor.h */,
+				B0186F6E187E5D0300C9ACAE /* vnDataStream.h */,
+				B0187011187E8E8F00C9ACAE /* vnDevice.h */,
+				B0186FE8187E775300C9ACAE /* vnFastMutex.h */,
+				B0186F6F187E5D0300C9ACAE /* vnFileManager.h */,
+				B0186F70187E5D0300C9ACAE /* vnFilePath.h */,
+				B0186F71187E5D0300C9ACAE /* vnFileSystem.h */,
+				B0186F72187E5D0300C9ACAE /* vnFunction.h */,
+				B0186F73187E5D0300C9ACAE /* vnFunction0.h */,
+				B0186F74187E5D0300C9ACAE /* vnFunction1.h */,
+				B0186F75187E5D0300C9ACAE /* vnFunction2.h */,
+				B0186F76187E5D0300C9ACAE /* vnFunction3.h */,
+				B0186F77187E5D0300C9ACAE /* vnFunction4.h */,
+				B0186F78187E5D0300C9ACAE /* vnFunctionBase.h */,
+				B0186F79187E5D0300C9ACAE /* vnLog.h */,
+				B0186F7A187E5D0300C9ACAE /* vnMath.h */,
+				B0186F7B187E5D0300C9ACAE /* vnMatrix2.h */,
+				B018701F187E980500C9ACAE /* vnMatrix3.h */,
+				B0186F7C187E5D0300C9ACAE /* vnMemory.h */,
+				B0186F7D187E5D0300C9ACAE /* vnMemoryTracker.h */,
+				B0186FE4187E761600C9ACAE /* vnNonCopyable.h */,
+				B0187023187E9AD900C9ACAE /* vnPicture.h */,
+				B0187024187E9AD900C9ACAE /* vnPictureManager.h */,
+				B0186F7E187E5D0300C9ACAE /* vnPlatform.h */,
+				B018701A187E94E000C9ACAE /* vnQuad.h */,
+				B0186FE9187E775300C9ACAE /* vnRecursiveLock.h */,
+				B0186F7F187E5D0400C9ACAE /* vnRefCounted.h */,
+				B0187002187E7E3B00C9ACAE /* vnSceneNode.h */,
+				B018700B187E7F8D00C9ACAE /* vnSceneObject.h */,
+				B0186FEA187E775300C9ACAE /* vnScopedLock.h */,
+				B0186F80187E5D0400C9ACAE /* vnSingleton.h */,
+				B0186F81187E5D0400C9ACAE /* vnSingletonManager.h */,
+				B0187013187E907200C9ACAE /* vnTexture.h */,
+				B0187025187E9AD900C9ACAE /* vnTextureManager.h */,
+				B0186F82187E5D0400C9ACAE /* vnTreeData.h */,
+				B0186FFF187E7B3A00C9ACAE /* vnTreeDataParser.h */,
+				B0186F83187E5D0400C9ACAE /* vnTypes.h */,
+				B0186F84187E5D0400C9ACAE /* vnUnicode.h */,
+				B0186F85187E5D0400C9ACAE /* vnVector2.h */,
+				B0187021187E98E100C9ACAE /* vnVector3.h */,
+				B0187012187E906200C9ACAE /* vnVertex.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		B0186F66187E5B8C00C9ACAE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B0186FC2187E5F0200C9ACAE /* lex */,
+				B0186FA3187E5D1000C9ACAE /* osx */,
+				B0186FA8187E5E4000C9ACAE /* vnAllocatedObject.cpp */,
+				B018700F187E8DDD00C9ACAE /* vnApplication.cpp */,
+				B0186FA9187E5E4000C9ACAE /* vnBuffer.cpp */,
+				B0187016187E912A00C9ACAE /* vnColor.cpp */,
+				B0186FAA187E5E4000C9ACAE /* vnDataStream.cpp */,
+				B018701D187E97B500C9ACAE /* vnDevice.cpp */,
+				B0186FAB187E5E4000C9ACAE /* vnFileManager.cpp */,
+				B0186FAC187E5E4000C9ACAE /* vnFilePath.cpp */,
+				B0186FAD187E5E4000C9ACAE /* vnLog.cpp */,
+				B0186FAE187E5E4000C9ACAE /* vnMath.cpp */,
+				B0186FAF187E5E4000C9ACAE /* vnMemory.cpp */,
+				B0186FB0187E5E4000C9ACAE /* vnMemoryTracker.cpp */,
+				B0186FE6187E762900C9ACAE /* vnNonCopyable.cpp */,
+				B0187029187E9B8400C9ACAE /* vnPicture.cpp */,
+				B018702A187E9B8400C9ACAE /* vnPictureManager.cpp */,
+				B018701B187E963200C9ACAE /* vnQuad.cpp */,
+				B0186FB1187E5E4000C9ACAE /* vnRefCounted.cpp */,
+				B0187003187E7E5E00C9ACAE /* vnSceneNode.cpp */,
+				B018700C187E8CBA00C9ACAE /* vnSceneObject.cpp */,
+				B0186FB2187E5E4000C9ACAE /* vnSingletonManager.cpp */,
+				B0187018187E927200C9ACAE /* vnTexture.cpp */,
+				B018702B187E9B8400C9ACAE /* vnTextureManager.cpp */,
+				B0186FB3187E5E4000C9ACAE /* vnTreeData.cpp */,
+				B0187000187E7BA700C9ACAE /* vnTreeDataParser.cpp */,
+				B0186FB4187E5E4000C9ACAE /* vnUnicode.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		B0186F67187E5B9600C9ACAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0186F68187E5BAF00C9ACAE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B0186FA3187E5D1000C9ACAE /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				B0186FA4187E5D4B00C9ACAE /* vnAtomic.cpp */,
+				B0186FEE187E777600C9ACAE /* vnFastMutex.cpp */,
+				B0186FA5187E5D4B00C9ACAE /* vnFileSystem.cpp */,
+				B0187033187EA58700C9ACAE /* vnApplicationImpl.cpp */,
+				B0187034187EA58700C9ACAE /* vnApplicationImpl.h */,
+			);
+			name = osx;
+			sourceTree = "<group>";
+		};
+		B0186FC2187E5F0200C9ACAE /* lex */ = {
+			isa = PBXGroup;
+			children = (
+				B0186FC3187E73E200C9ACAE /* vnLexDef.h */,
+				B0186FC4187E73E200C9ACAE /* vnLexer.cpp */,
+				B0186FC5187E73E200C9ACAE /* vnLexer.h */,
+				B0186FC6187E73E200C9ACAE /* vnLexicalAnalizer.cpp */,
+				B0186FC7187E73E200C9ACAE /* vnLexicalAnalizer.h */,
+				B0186FC8187E73E200C9ACAE /* vnLR_Node.cpp */,
+				B0186FC9187E73E200C9ACAE /* vnLR_Node.h */,
+				B0186FCA187E73E200C9ACAE /* vnLR_Parser.cpp */,
+				B0186FCB187E73E200C9ACAE /* vnLR_Parser.h */,
+				B0186FCC187E73E200C9ACAE /* vnLR_State.h */,
+				B0186FCD187E73E200C9ACAE /* vnToken.cpp */,
+				B0186FCE187E73E200C9ACAE /* vnToken.h */,
+				B0186FCF187E73E200C9ACAE /* vnTreeDataScript.cpp */,
+				B0186FD0187E73E200C9ACAE /* vnTreeDataScript.h */,
+				B0186FD1187E73E200C9ACAE /* vnTreeDataScriptProductions.h */,
+				B0186FD2187E73E200C9ACAE /* vnTreeDataScriptStates.hpp */,
+			);
+			name = lex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0186F5C187E594D00C9ACAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0186F97187E5D0400C9ACAE /* vnMath.h in Headers */,
+				B0186F9E187E5D0400C9ACAE /* vnSingletonManager.h in Headers */,
+				B0187015187E911E00C9ACAE /* vnColor.h in Headers */,
+				B0187027187E9AD900C9ACAE /* vnPictureManager.h in Headers */,
+				B0186F8B187E5D0400C9ACAE /* vnDataStream.h in Headers */,
+				B0186FE5187E761600C9ACAE /* vnNonCopyable.h in Headers */,
+				B0187020187E980500C9ACAE /* vnMatrix3.h in Headers */,
+				B0186F86187E5D0400C9ACAE /* vnAABox2.h in Headers */,
+				B0186FDE187E73E200C9ACAE /* vnToken.h in Headers */,
+				B0186FEB187E775300C9ACAE /* vnFastMutex.h in Headers */,
+				B0186FA2187E5D0400C9ACAE /* vnVector2.h in Headers */,
+				B0186FD7187E73E200C9ACAE /* vnLexicalAnalizer.h in Headers */,
+				B0186F9F187E5D0400C9ACAE /* vnTreeData.h in Headers */,
+				B0186F98187E5D0400C9ACAE /* vnMatrix2.h in Headers */,
+				B0186F93187E5D0400C9ACAE /* vnFunction3.h in Headers */,
+				B0186FEC187E775300C9ACAE /* vnRecursiveLock.h in Headers */,
+				B0187022187E98E100C9ACAE /* vnVector3.h in Headers */,
+				B0186F91187E5D0400C9ACAE /* vnFunction1.h in Headers */,
+				B0186F8E187E5D0400C9ACAE /* vnFileSystem.h in Headers */,
+				B0186F89187E5D0400C9ACAE /* vnAtomic.h in Headers */,
+				B0186F9A187E5D0400C9ACAE /* vnMemoryTracker.h in Headers */,
+				B0186FDC187E73E200C9ACAE /* vnLR_State.h in Headers */,
+				B0186F9B187E5D0400C9ACAE /* vnPlatform.h in Headers */,
+				B0186FE0187E73E200C9ACAE /* vnTreeDataScript.h in Headers */,
+				B0186F96187E5D0400C9ACAE /* vnLog.h in Headers */,
+				B0186FA0187E5D0400C9ACAE /* vnTypes.h in Headers */,
+				B0186F8D187E5D0400C9ACAE /* vnFilePath.h in Headers */,
+				B0186FE1187E73E200C9ACAE /* vnTreeDataScriptProductions.h in Headers */,
+				B0186F8C187E5D0400C9ACAE /* vnFileManager.h in Headers */,
+				B0186FD5187E73E200C9ACAE /* vnLexer.h in Headers */,
+				B0186F8F187E5D0400C9ACAE /* vnFunction.h in Headers */,
+				B0187026187E9AD900C9ACAE /* vnPicture.h in Headers */,
+				B0186F92187E5D0400C9ACAE /* vnFunction2.h in Headers */,
+				B0187028187E9AD900C9ACAE /* vnTextureManager.h in Headers */,
+				B0186F99187E5D0400C9ACAE /* vnMemory.h in Headers */,
+				B0186FED187E775300C9ACAE /* vnScopedLock.h in Headers */,
+				B0186F87187E5D0400C9ACAE /* vnAllocatedObject.h in Headers */,
+				B0186F9C187E5D0400C9ACAE /* vnRefCounted.h in Headers */,
+				B0186F9D187E5D0400C9ACAE /* vnSingleton.h in Headers */,
+				B0186FE2187E73E200C9ACAE /* vnTreeDataScriptStates.hpp in Headers */,
+				B0186FDB187E73E200C9ACAE /* vnLR_Parser.h in Headers */,
+				B0186F95187E5D0400C9ACAE /* vnFunctionBase.h in Headers */,
+				B0186F94187E5D0400C9ACAE /* vnFunction4.h in Headers */,
+				B0186FA1187E5D0400C9ACAE /* vnUnicode.h in Headers */,
+				B0186F90187E5D0400C9ACAE /* vnFunction0.h in Headers */,
+				B0186F8A187E5D0400C9ACAE /* vnBuffer.h in Headers */,
+				B0186FD3187E73E200C9ACAE /* vnLexDef.h in Headers */,
+				B0187036187EA58700C9ACAE /* vnApplicationImpl.h in Headers */,
+				B0186FD9187E73E200C9ACAE /* vnLR_Node.h in Headers */,
+				B0186F88187E5D0400C9ACAE /* vnAssert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0186F5D187E594D00C9ACAE /* vn2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0186F62187E594D00C9ACAE /* Build configuration list for PBXNativeTarget "vn2d" */;
+			buildPhases = (
+				B0186F5A187E594D00C9ACAE /* Sources */,
+				B0186F5B187E594D00C9ACAE /* Frameworks */,
+				B0186F5C187E594D00C9ACAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vn2d;
+			productName = vn2d;
+			productReference = B0186F5E187E594D00C9ACAE /* vn2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0186F56187E594D00C9ACAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = viichi.com;
+			};
+			buildConfigurationList = B0186F59187E594D00C9ACAE /* Build configuration list for PBXProject "vn2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0186F55187E594D00C9ACAE;
+			productRefGroup = B0186F5F187E594D00C9ACAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0186F5D187E594D00C9ACAE /* vn2d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0186F5A187E594D00C9ACAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0186FD4187E73E200C9ACAE /* vnLexer.cpp in Sources */,
+				B0186FBA187E5E4000C9ACAE /* vnLog.cpp in Sources */,
+				B0186FE7187E762900C9ACAE /* vnNonCopyable.cpp in Sources */,
+				B0186FC0187E5E4000C9ACAE /* vnTreeData.cpp in Sources */,
+				B0186FB7187E5E4000C9ACAE /* vnDataStream.cpp in Sources */,
+				B0186FB8187E5E4000C9ACAE /* vnFileManager.cpp in Sources */,
+				B0186FD8187E73E200C9ACAE /* vnLR_Node.cpp in Sources */,
+				B018701E187E97B500C9ACAE /* vnDevice.cpp in Sources */,
+				B0187017187E912A00C9ACAE /* vnColor.cpp in Sources */,
+				B018700D187E8CBA00C9ACAE /* vnSceneObject.cpp in Sources */,
+				B0186FDF187E73E200C9ACAE /* vnTreeDataScript.cpp in Sources */,
+				B018702E187E9B8400C9ACAE /* vnTextureManager.cpp in Sources */,
+				B0186FD6187E73E200C9ACAE /* vnLexicalAnalizer.cpp in Sources */,
+				B0186FBB187E5E4000C9ACAE /* vnMath.cpp in Sources */,
+				B0186FC1187E5E4000C9ACAE /* vnUnicode.cpp in Sources */,
+				B0186FBC187E5E4000C9ACAE /* vnMemory.cpp in Sources */,
+				B0186FBD187E5E4000C9ACAE /* vnMemoryTracker.cpp in Sources */,
+				B0187035187EA58700C9ACAE /* vnApplicationImpl.cpp in Sources */,
+				B018702D187E9B8400C9ACAE /* vnPictureManager.cpp in Sources */,
+				B0187004187E7E5E00C9ACAE /* vnSceneNode.cpp in Sources */,
+				B0186FB5187E5E4000C9ACAE /* vnAllocatedObject.cpp in Sources */,
+				B0186FA7187E5D4B00C9ACAE /* vnFileSystem.cpp in Sources */,
+				B018701C187E963200C9ACAE /* vnQuad.cpp in Sources */,
+				B0187010187E8DDD00C9ACAE /* vnApplication.cpp in Sources */,
+				B0187019187E927200C9ACAE /* vnTexture.cpp in Sources */,
+				B0186FEF187E777600C9ACAE /* vnFastMutex.cpp in Sources */,
+				B0187001187E7BA700C9ACAE /* vnTreeDataParser.cpp in Sources */,
+				B0186FBE187E5E4000C9ACAE /* vnRefCounted.cpp in Sources */,
+				B0186FDA187E73E200C9ACAE /* vnLR_Parser.cpp in Sources */,
+				B0186FBF187E5E4000C9ACAE /* vnSingletonManager.cpp in Sources */,
+				B0186FA6187E5D4B00C9ACAE /* vnAtomic.cpp in Sources */,
+				B0186FDD187E73E200C9ACAE /* vnToken.cpp in Sources */,
+				B0186FB6187E5E4000C9ACAE /* vnBuffer.cpp in Sources */,
+				B018702C187E9B8400C9ACAE /* vnPicture.cpp in Sources */,
+				B0186FB9187E5E4000C9ACAE /* vnFilePath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0186F60187E594D00C9ACAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0186F61187E594D00C9ACAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0186F63187E594D00C9ACAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../../inc;
+			};
+			name = Debug;
+		};
+		B0186F64187E594D00C9ACAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../../inc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0186F59187E594D00C9ACAE /* Build configuration list for PBXProject "vn2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0186F60187E594D00C9ACAE /* Debug */,
+				B0186F61187E594D00C9ACAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0186F62187E594D00C9ACAE /* Build configuration list for PBXNativeTarget "vn2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0186F63187E594D00C9ACAE /* Debug */,
+				B0186F64187E594D00C9ACAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0186F56187E594D00C9ACAE /* Project object */;
+}

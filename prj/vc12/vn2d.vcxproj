@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91A3B18C-6809-458F-A81A-BF78022B6F42}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vn2d</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\bin\</OutDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files (x86)\OpenAL 1.1 SDK\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files (x86)\OpenAL 1.1 SDK\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;VN_2D_DYNLIB;VN_2D_EXPORT;_DEBUG;_WINDOWS;_USRDLL;VN2D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)Include;..\..\inc;..\..\dep\zlib\inc;..\..\dep\libpng\inc;..\..\dep\freetype\include;..\..\dep\libogg\inc;..\..\dep\libvorbis\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;VN_2D_DYNLIB;VN_2D_EXPORT;NDEBUG;_WINDOWS;_USRDLL;VN2D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)Include;..\..\inc;..\..\dep\zlib\inc;..\..\dep\libpng\inc;..\..\dep\freetype\include;..\..\dep\libogg\inc;..\..\dep\libvorbis\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dep\libogg\src\bitwise.c" />
+    <ClCompile Include="..\..\dep\libogg\src\framing.c" />
+    <ClCompile Include="..\..\dep\libpng\src\png.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngerror.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngget.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngmem.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngpread.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngread.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngrio.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngrtran.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngrutil.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngset.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngtrans.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngwio.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngwrite.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngwtran.c" />
+    <ClCompile Include="..\..\dep\libpng\src\pngwutil.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\analysis.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\barkmel.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\bitrate.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\block.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\codebook.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\envelope.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\floor0.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\floor1.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\info.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\lookup.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\lpc.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\lsp.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\mapping0.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\mdct.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\psy.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\registry.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\res0.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\sharedbook.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\smallft.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\synthesis.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\vorbisenc.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\vorbisfile.c" />
+    <ClCompile Include="..\..\dep\libvorbis\src\window.c" />
+    <ClCompile Include="..\..\dep\zlib\src\adler32.c" />
+    <ClCompile Include="..\..\dep\zlib\src\compress.c" />
+    <ClCompile Include="..\..\dep\zlib\src\crc32.c" />
+    <ClCompile Include="..\..\dep\zlib\src\deflate.c" />
+    <ClCompile Include="..\..\dep\zlib\src\gzclose.c" />
+    <ClCompile Include="..\..\dep\zlib\src\gzlib.c" />
+    <ClCompile Include="..\..\dep\zlib\src\gzread.c" />
+    <ClCompile Include="..\..\dep\zlib\src\gzwrite.c" />
+    <ClCompile Include="..\..\dep\zlib\src\infback.c" />
+    <ClCompile Include="..\..\dep\zlib\src\inffast.c" />
+    <ClCompile Include="..\..\dep\zlib\src\inflate.c" />
+    <ClCompile Include="..\..\dep\zlib\src\inftrees.c" />
+    <ClCompile Include="..\..\dep\zlib\src\trees.c" />
+    <ClCompile Include="..\..\dep\zlib\src\uncompr.c" />
+    <ClCompile Include="..\..\dep\zlib\src\zutil.c" />
+    <ClCompile Include="..\..\src\lex\vnLexer.cpp" />
+    <ClCompile Include="..\..\src\lex\vnLexicalAnalizer.cpp" />
+    <ClCompile Include="..\..\src\lex\vnLR_Node.cpp" />
+    <ClCompile Include="..\..\src\lex\vnLR_Parser.cpp" />
+    <ClCompile Include="..\..\src\lex\vnToken.cpp" />
+    <ClCompile Include="..\..\src\lex\vnTreeDataScript.cpp" />
+    <ClCompile Include="..\..\src\vnAllocatedObject.cpp" />
+    <ClCompile Include="..\..\src\vnApplication.cpp" />
+    <ClCompile Include="..\..\src\vnBuffer.cpp" />
+    <ClCompile Include="..\..\src\vnCellBasedFont.cpp" />
+    <ClCompile Include="..\..\src\vnColor.cpp" />
+    <ClCompile Include="..\..\src\vnCompressedInt.cpp" />
+    <ClCompile Include="..\..\src\vnDataStream.cpp" />
+    <ClCompile Include="..\..\src\vnDevice.cpp" />
+    <ClCompile Include="..\..\src\vnFileManager.cpp" />
+    <ClCompile Include="..\..\src\vnFilePath.cpp" />
+    <ClCompile Include="..\..\src\vnFont.cpp" />
+    <ClCompile Include="..\..\src\vnFontManager.cpp" />
+    <ClCompile Include="..\..\src\vnFontString.cpp" />
+    <ClCompile Include="..\..\src\vnLinkBuffer.cpp" />
+    <ClCompile Include="..\..\src\vnLog.cpp" />
+    <ClCompile Include="..\..\src\vnMath.cpp" />
+    <ClCompile Include="..\..\src\vnMemory.cpp" />
+    <ClCompile Include="..\..\src\vnMemoryTracker.cpp" />
+    <ClCompile Include="..\..\src\vnNonCopyable.cpp" />
+    <ClCompile Include="..\..\src\vnPackingStream.cpp" />
+    <ClCompile Include="..\..\src\vnPicture.cpp" />
+    <ClCompile Include="..\..\src\vnPictureManager.cpp" />
+    <ClCompile Include="..\..\src\vnQuad.cpp" />
+    <ClCompile Include="..\..\src\vnRefCounted.cpp" />
+    <ClCompile Include="..\..\src\vnRunLoop.cpp" />
+    <ClCompile Include="..\..\src\vnSceneCamera.cpp" />
+    <ClCompile Include="..\..\src\vnSceneNode.cpp" />
+    <ClCompile Include="..\..\src\vnSceneNodeAnimator.cpp" />
+    <ClCompile Include="..\..\src\vnSceneNodeContainer.cpp" />
+    <ClCompile Include="..\..\src\vnSceneObject.cpp" />
+    <ClCompile Include="..\..\src\vnSceneQuad.cpp" />
+    <ClCompile Include="..\..\src\vnSceneText.cpp" />
+    <ClCompile Include="..\..\src\vnSingletonManager.cpp" />
+    <ClCompile Include="..\..\src\vnSoundEngine.cpp" />
+    <ClCompile Include="..\..\src\vnTexture.cpp" />
+    <ClCompile Include="..\..\src\vnTextureManager.cpp" />
+    <ClCompile Include="..\..\src\vnTreeData.cpp" />
+    <ClCompile Include="..\..\src\vnTreeDataParser.cpp" />
+    <ClCompile Include="..\..\src\vnUIButton.cpp" />
+    <ClCompile Include="..\..\src\vnUIElement.cpp" />
+    <ClCompile Include="..\..\src\vnUIFactory.cpp" />
+    <ClCompile Include="..\..\src\vnUIFrame.cpp" />
+    <ClCompile Include="..\..\src\vnUIImage.cpp" />
+    <ClCompile Include="..\..\src\vnUILabel.cpp" />
+    <ClCompile Include="..\..\src\vnUILocator.cpp" />
+    <ClCompile Include="..\..\src\vnUILocatorBorder.cpp" />
+    <ClCompile Include="..\..\src\vnUILocatorBox.cpp" />
+    <ClCompile Include="..\..\src\vnUILocatorRect.cpp" />
+    <ClCompile Include="..\..\src\vnUIPicture.cpp" />
+    <ClCompile Include="..\..\src\vnUIRenderEffect.cpp" />
+    <ClCompile Include="..\..\src\vnUIRenderer.cpp" />
+    <ClCompile Include="..\..\src\vnUIRoot.cpp" />
+    <ClCompile Include="..\..\src\vnUITextField.cpp" />
+    <ClCompile Include="..\..\src\vnUnicode.cpp" />
+    <ClCompile Include="..\..\src\vnUnpackingStream.cpp" />
+    <ClCompile Include="..\..\src\win\vnApplicationImpl.cpp" />
+    <ClCompile Include="..\..\src\win\vnAtomic.cpp" />
+    <ClCompile Include="..\..\src\win\vnDeviceImpl.cpp" />
+    <ClCompile Include="..\..\src\win\vnFastMutex.cpp" />
+    <ClCompile Include="..\..\src\win\vnFileSystem.cpp" />
+    <ClCompile Include="..\..\src\win\vnFontImpl.cpp" />
+    <ClCompile Include="..\..\src\win\vnPNGLoader.cpp" />
+    <ClCompile Include="..\..\src\win\vnTextureImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\vn2dDef.h" />
+    <ClInclude Include="..\..\inc\vnAABox2.h" />
+    <ClInclude Include="..\..\inc\vnAllocatedObject.h" />
+    <ClInclude Include="..\..\inc\vnApplication.h" />
+    <ClInclude Include="..\..\inc\vnAssert.h" />
+    <ClInclude Include="..\..\inc\vnAtomic.h" />
+    <ClInclude Include="..\..\inc\vnBuffer.h" />
+    <ClInclude Include="..\..\inc\vnCellBasedFont.h" />
+    <ClInclude Include="..\..\inc\vnColor.h" />
+    <ClInclude Include="..\..\inc\vnCompressedInt.h" />
+    <ClInclude Include="..\..\inc\vnDataStream.h" />
+    <ClInclude Include="..\..\inc\vnDevice.h" />
+    <ClInclude Include="..\..\inc\vnFastMutex.h" />
+    <ClInclude Include="..\..\inc\vnFileManager.h" />
+    <ClInclude Include="..\..\inc\vnFilePath.h" />
+    <ClInclude Include="..\..\inc\vnFileSystem.h" />
+    <ClInclude Include="..\..\inc\vnFont.h" />
+    <ClInclude Include="..\..\inc\vnFontManager.h" />
+    <ClInclude Include="..\..\inc\vnFontString.h" />
+    <ClInclude Include="..\..\inc\vnFunction.h" />
+    <ClInclude Include="..\..\inc\vnFunction0.h" />
+    <ClInclude Include="..\..\inc\vnFunction1.h" />
+    <ClInclude Include="..\..\inc\vnFunction2.h" />
+    <ClInclude Include="..\..\inc\vnFunction3.h" />
+    <ClInclude Include="..\..\inc\vnFunction4.h" />
+    <ClInclude Include="..\..\inc\vnFunctionBase.h" />
+    <ClInclude Include="..\..\inc\vnLinkBuffer.h" />
+    <ClInclude Include="..\..\inc\vnList.h" />
+    <ClInclude Include="..\..\inc\vnLog.h" />
+    <ClInclude Include="..\..\inc\vnMath.h" />
+    <ClInclude Include="..\..\inc\vnMatrix2.h" />
+    <ClInclude Include="..\..\inc\vnMatrix3.h" />
+    <ClInclude Include="..\..\inc\vnMemory.h" />
+    <ClInclude Include="..\..\inc\vnMemoryTracker.h" />
+    <ClInclude Include="..\..\inc\vnNonCopyable.h" />
+    <ClInclude Include="..\..\inc\vnPacket.h" />
+    <ClInclude Include="..\..\inc\vnPacketFactory.h" />
+    <ClInclude Include="..\..\inc\vnPackingStream.h" />
+    <ClInclude Include="..\..\inc\vnPicture.h" />
+    <ClInclude Include="..\..\inc\vnPictureManager.h" />
+    <ClInclude Include="..\..\inc\vnPlatform.h" />
+    <ClInclude Include="..\..\inc\vnQuad.h" />
+    <ClInclude Include="..\..\inc\vnRecursiveLock.h" />
+    <ClInclude Include="..\..\inc\vnRefCounted.h" />
+    <ClInclude Include="..\..\inc\vnRunLoop.h" />
+    <ClInclude Include="..\..\inc\vnSceneCamera.h" />
+    <ClInclude Include="..\..\inc\vnSceneNode.h" />
+    <ClInclude Include="..\..\inc\vnSceneNodeAnimator.h" />
+    <ClInclude Include="..\..\inc\vnSceneNodeContainer.h" />
+    <ClInclude Include="..\..\inc\vnSceneObject.h" />
+    <ClInclude Include="..\..\inc\vnSceneQuad.h" />
+    <ClInclude Include="..\..\inc\vnSceneText.h" />
+    <ClInclude Include="..\..\inc\vnScopedLock.h" />
+    <ClInclude Include="..\..\inc\vnSingleton.h" />
+    <ClInclude Include="..\..\inc\vnSingletonManager.h" />
+    <ClInclude Include="..\..\inc\vnSoundEngine.h" />
+    <ClInclude Include="..\..\inc\vnTexture.h" />
+    <ClInclude Include="..\..\inc\vnTextureManager.h" />
+    <ClInclude Include="..\..\inc\vnTreeData.h" />
+    <ClInclude Include="..\..\inc\vnTreeDataParser.h" />
+    <ClInclude Include="..\..\inc\vnTypes.h" />
+    <ClInclude Include="..\..\inc\vnUIButton.h" />
+    <ClInclude Include="..\..\inc\vnUICommon.h" />
+    <ClInclude Include="..\..\inc\vnUIElement.h" />
+    <ClInclude Include="..\..\inc\vnUIFactory.h" />
+    <ClInclude Include="..\..\inc\vnUIFrame.h" />
+    <ClInclude Include="..\..\inc\vnUIImage.h" />
+    <ClInclude Include="..\..\inc\vnUILabel.h" />
+    <ClInclude Include="..\..\inc\vnUILocator.h" />
+    <ClInclude Include="..\..\inc\vnUILocatorBorder.h" />
+    <ClInclude Include="..\..\inc\vnUILocatorBox.h" />
+    <ClInclude Include="..\..\inc\vnUILocatorRect.h" />
+    <ClInclude Include="..\..\inc\vnUIPicture.h" />
+    <ClInclude Include="..\..\inc\vnUIRenderEffect.h" />
+    <ClInclude Include="..\..\inc\vnUIRenderer.h" />
+    <ClInclude Include="..\..\inc\vnUIRoot.h" />
+    <ClInclude Include="..\..\inc\vnUITextField.h" />
+    <ClInclude Include="..\..\inc\vnUnicode.h" />
+    <ClInclude Include="..\..\inc\vnUnpackingStream.h" />
+    <ClInclude Include="..\..\inc\vnVector2.h" />
+    <ClInclude Include="..\..\inc\vnVector3.h" />
+    <ClInclude Include="..\..\inc\vnVertex.h" />
+    <ClInclude Include="..\..\src\lex\vnLexDef.h" />
+    <ClInclude Include="..\..\src\lex\vnLexer.h" />
+    <ClInclude Include="..\..\src\lex\vnLexicalAnalizer.h" />
+    <ClInclude Include="..\..\src\lex\vnLR_Node.h" />
+    <ClInclude Include="..\..\src\lex\vnLR_Parser.h" />
+    <ClInclude Include="..\..\src\lex\vnLR_State.h" />
+    <ClInclude Include="..\..\src\lex\vnToken.h" />
+    <ClInclude Include="..\..\src\lex\vnTreeDataScript.h" />
+    <ClInclude Include="..\..\src\lex\vnTreeDataScriptProductions.h" />
+    <ClInclude Include="..\..\src\lex\vnTreeDataScriptStates.hpp" />
+    <ClInclude Include="..\..\src\win\vnApplicationImpl.h" />
+    <ClInclude Include="..\..\src\win\vnDeviceImpl.h" />
+    <ClInclude Include="..\..\src\win\vnFontImpl.h" />
+    <ClInclude Include="..\..\src\win\vnTextureImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\dep\freetype\builds\windows\vc2013\freetype.vcxproj">
+      <Project>{78b079bd-9fc7-4b9e-b4a6-96da0f00248b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

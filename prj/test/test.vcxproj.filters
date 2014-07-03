@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\win">
+      <UniqueIdentifier>{6f5ba37f-0194-4914-b685-eec80ff227d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lex">
+      <UniqueIdentifier>{1689bc29-30b0-4e07-970d-9d156f84e76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="png">
+      <UniqueIdentifier>{32767971-8321-40b1-9b27-471cb82d0e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{8bc8ee31-635a-4c0e-856a-75ebd3c64f2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnLexer.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnLexicalAnalizer.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnLR_Node.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnLR_Parser.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnToken.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\lex\vnTreeDataScript.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnApplicationImpl.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnAtomic.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnFastMutex.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnFileSystem.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnFilePath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnMemoryTracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnNonCopyable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnPicture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnPictureManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnQuad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnRefCounted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnSceneNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnSceneObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnSingletonManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnTextureManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnTreeData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnTreeDataParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUnicode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnAllocatedObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnColor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnDataStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnFileManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnDeviceImpl.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnTextureImpl.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\Game.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\zlib\src\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="vnPNGLoader.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\png.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngerror.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngget.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngmem.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngpread.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngread.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngrio.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngrtran.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngrutil.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngset.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngtrans.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngwio.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngwrite.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngwtran.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\libpng\src\pngwutil.c">
+      <Filter>png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnCellBasedFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnFontManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnFontString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUILabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUILocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUILocatorBorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUILocatorBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUILocatorRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIPicture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIRoot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win\vnFontImpl.cpp">
+      <Filter>源文件\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnUIFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\vnFunction3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunction4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunctionBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnMatrix2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnMatrix3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnMemoryTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnNonCopyable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnPicture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnPictureManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnPlatform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnQuad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnRecursiveLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnRefCounted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnSceneObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnScopedLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnSingleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnSingletonManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnTextureManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnTreeData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnTreeDataParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUnicode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnVector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnVector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vn2dDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnAABox2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnAllocatedObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnAssert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnAtomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnColor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnDataStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnDevice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFastMutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFileManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFilePath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFileSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunction0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunction1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFunction2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLexDef.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLexer.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLexicalAnalizer.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLR_Node.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLR_Parser.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnLR_State.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnToken.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnTreeDataScript.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnTreeDataScriptProductions.h">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lex\vnTreeDataScriptStates.hpp">
+      <Filter>源文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win\vnApplicationImpl.h">
+      <Filter>源文件\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win\vnDeviceImpl.h">
+      <Filter>源文件\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win\vnTextureImpl.h">
+      <Filter>源文件\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win\Game.h">
+      <Filter>源文件\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnCellBasedFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFontManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnFontString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUICommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUILabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUILocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUILocatorBorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUILocatorBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUILocatorRect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIPicture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIRoot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win\vnFontImpl.h">
+      <Filter>源文件\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\vnUIFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

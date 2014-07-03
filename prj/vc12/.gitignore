@@ -1,0 +1,5 @@
+*
+!.gitignore
+!vn2d.sln
+!vn2d.vcxproj
+!vn2d.vcxproj.filters

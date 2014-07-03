@@ -1,0 +1,64 @@
+﻿生成启动时间为 2014/1/21 16:34:36。
+     1>项目“C:\Users\tanghailong\projects\works new\vn2d\prj\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\inc /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /I..\..\dep\libpng\inc /I..\..\dep\zlib\inc /I..\..\dep\freetype\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\lex\vnTreeDataScript.cpp ..\..\src\vnApplication.cpp ..\..\src\vnCellBasedFont.cpp ..\..\src\vnFileManager.cpp ..\..\src\vnFilePath.cpp ..\..\src\vnFontManager.cpp ..\..\src\vnPicture.cpp ..\..\src\vnPictureManager.cpp ..\..\src\vnSceneNode.cpp ..\..\src\vnTextureManager.cpp ..\..\src\vnTreeDataParser.cpp ..\..\src\vnUIButton.cpp ..\..\src\vnUIElement.cpp ..\..\src\vnUIFactory.cpp ..\..\src\vnUIFrame.cpp ..\..\src\vnUIImage.cpp ..\..\src\vnUILabel.cpp ..\..\src\vnUILocator.cpp ..\..\src\vnUILocatorBorder.cpp ..\..\src\vnUILocatorBox.cpp ..\..\src\vnUILocatorRect.cpp ..\..\src\vnUIPicture.cpp ..\..\src\vnUIRoot.cpp ..\..\src\win\Game.cpp ..\..\src\win\vnApplicationImpl.cpp ..\..\src\win\vnDeviceImpl.cpp ..\..\src\win\vnFileSystem.cpp ..\..\src\win\vnFontImpl.cpp ..\..\src\win\vnTextureImpl.cpp main.cpp vnPNGLoader.cpp
+         vnFontImpl.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\src\win\vnfontimpl.cpp(81): warning C4244: “参数”: 从“vn::f32”转换到“FT_UInt”，可能丢失数据
+     1>c:\users\tanghailong\projects\works new\vn2d\src\win\vnfontimpl.cpp(83): warning C4244: “=”: 从“vn::f32”转换到“vn::u32”，可能丢失数据
+     1>c:\users\tanghailong\projects\works new\vn2d\src\win\vnfontimpl.cpp(84): warning C4244: “=”: 从“vn::f32”转换到“vn::s32”，可能丢失数据
+         vnFileSystem.cpp
+         vnDeviceImpl.cpp
+         vnApplicationImpl.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\src\win\vnapplicationimpl.cpp(171): warning C4244: “初始化”: 从“vn::f32”转换到“LONG”，可能丢失数据
+         Game.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件: “..\..\src\win\Game.cpp”: No such file or directory
+         vnUILabel.cpp
+         vnPicture.cpp
+         正在生成代码...
+         正在编译...
+         vnPNGLoader.cpp
+         main.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\prj\test\main.cpp(4): fatal error C1083: 无法打开包括文件: “../src/win/Game.h”: No such file or directory
+         vnUIRoot.cpp
+         vnUIPicture.cpp
+         vnUILocatorRect.cpp
+         vnUILocatorBox.cpp
+         vnUILocatorBorder.cpp
+         vnUILocator.cpp
+         vnUIImage.cpp
+         vnUIFrame.cpp
+         vnUIFactory.cpp
+         vnUIElement.cpp
+         vnUIButton.cpp
+         vnTreeDataParser.cpp
+         vnTextureManager.cpp
+         vnPictureManager.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\src\vnpicturemanager.cpp(40): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+         vnFontManager.cpp
+         vnFilePath.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\src\vnfilepath.cpp(36): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\tanghailong\projects\works new\vn2d\src\vnfilepath.cpp(79): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+         vnFileManager.cpp
+         vnApplication.cpp
+         正在生成代码...
+         正在编译...
+         vnTreeDataScript.cpp
+     1>c:\users\tanghailong\projects\works new\vn2d\src\lex\vntreedatascript.cpp(42): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“vsprintf”的声明
+     1>c:\users\tanghailong\projects\works new\vn2d\src\lex\vntreedatascript.cpp(54): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“vsprintf”的声明
+         正在生成代码...
+         正在编译...
+         vnSceneNode.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         vnTextureImpl.cpp
+         vnCellBasedFont.cpp
+     1>已完成生成项目“C:\Users\tanghailong\projects\works new\vn2d\prj\test\test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:24.47

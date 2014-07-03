@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B018714F187EB7F900C9ACAE /* vnApplicationImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0187120187EB7F900C9ACAE /* vnApplicationImpl.mm */; };
+		B0187150187EB7F900C9ACAE /* vnAtomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187122187EB7F900C9ACAE /* vnAtomic.cpp */; };
+		B0187151187EB7F900C9ACAE /* vnFastMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187123187EB7F900C9ACAE /* vnFastMutex.cpp */; };
+		B0187152187EB7F900C9ACAE /* vnFileSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187124187EB7F900C9ACAE /* vnFileSystem.cpp */; };
+		B0187153187EB7F900C9ACAE /* vnLR_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187126187EB7F900C9ACAE /* vnLR_Node.cpp */; };
+		B0187154187EB7F900C9ACAE /* vnLR_Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187128187EB7F900C9ACAE /* vnLR_Parser.cpp */; };
+		B0187155187EB7F900C9ACAE /* vnLexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018712C187EB7F900C9ACAE /* vnLexer.cpp */; };
+		B0187156187EB7F900C9ACAE /* vnLexicalAnalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018712E187EB7F900C9ACAE /* vnLexicalAnalizer.cpp */; };
+		B0187157187EB7F900C9ACAE /* vnToken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187130187EB7F900C9ACAE /* vnToken.cpp */; };
+		B0187158187EB7F900C9ACAE /* vnTreeDataScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187132187EB7F900C9ACAE /* vnTreeDataScript.cpp */; };
+		B0187159187EB7F900C9ACAE /* vnAllocatedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187136187EB7F900C9ACAE /* vnAllocatedObject.cpp */; };
+		B018715A187EB7F900C9ACAE /* vnApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187137187EB7F900C9ACAE /* vnApplication.cpp */; };
+		B018715B187EB7F900C9ACAE /* vnBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187138187EB7F900C9ACAE /* vnBuffer.cpp */; };
+		B018715C187EB7F900C9ACAE /* vnColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187139187EB7F900C9ACAE /* vnColor.cpp */; };
+		B018715D187EB7F900C9ACAE /* vnDataStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713A187EB7F900C9ACAE /* vnDataStream.cpp */; };
+		B018715E187EB7F900C9ACAE /* vnDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713B187EB7F900C9ACAE /* vnDevice.cpp */; };
+		B018715F187EB7F900C9ACAE /* vnFileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713C187EB7F900C9ACAE /* vnFileManager.cpp */; };
+		B0187160187EB7F900C9ACAE /* vnFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713D187EB7F900C9ACAE /* vnFilePath.cpp */; };
+		B0187161187EB7F900C9ACAE /* vnLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713E187EB7F900C9ACAE /* vnLog.cpp */; };
+		B0187162187EB7F900C9ACAE /* vnMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018713F187EB7F900C9ACAE /* vnMath.cpp */; };
+		B0187163187EB7F900C9ACAE /* vnMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187140187EB7F900C9ACAE /* vnMemory.cpp */; };
+		B0187164187EB7F900C9ACAE /* vnMemoryTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187141187EB7F900C9ACAE /* vnMemoryTracker.cpp */; };
+		B0187165187EB7F900C9ACAE /* vnNonCopyable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187142187EB7F900C9ACAE /* vnNonCopyable.cpp */; };
+		B0187166187EB7F900C9ACAE /* vnPicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187143187EB7F900C9ACAE /* vnPicture.cpp */; };
+		B0187167187EB7F900C9ACAE /* vnPictureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187144187EB7F900C9ACAE /* vnPictureManager.cpp */; };
+		B0187168187EB7F900C9ACAE /* vnQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187145187EB7F900C9ACAE /* vnQuad.cpp */; };
+		B0187169187EB7F900C9ACAE /* vnRefCounted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187146187EB7F900C9ACAE /* vnRefCounted.cpp */; };
+		B018716A187EB7F900C9ACAE /* vnSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187147187EB7F900C9ACAE /* vnSceneNode.cpp */; };
+		B018716B187EB7F900C9ACAE /* vnSceneObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187148187EB7F900C9ACAE /* vnSceneObject.cpp */; };
+		B018716C187EB7F900C9ACAE /* vnSingletonManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0187149187EB7F900C9ACAE /* vnSingletonManager.cpp */; };
+		B018716D187EB7F900C9ACAE /* vnTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018714A187EB7F900C9ACAE /* vnTexture.cpp */; };
+		B018716E187EB7F900C9ACAE /* vnTextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018714B187EB7F900C9ACAE /* vnTextureManager.cpp */; };
+		B018716F187EB7F900C9ACAE /* vnTreeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018714C187EB7F900C9ACAE /* vnTreeData.cpp */; };
+		B0187170187EB7F900C9ACAE /* vnTreeDataParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018714D187EB7F900C9ACAE /* vnTreeDataParser.cpp */; };
+		B0187171187EB7F900C9ACAE /* vnUnicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B018714E187EB7F900C9ACAE /* vnUnicode.cpp */; };
+		B026A36F18D970D500A54039 /* vnSceneNodeAnimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B026A36E18D970D500A54039 /* vnSceneNodeAnimator.cpp */; };
+		B02EBA65187F942500F393D0 /* vnGLESView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B02EBA63187F942500F393D0 /* vnGLESView.mm */; };
+		B02EBA68187F9B3500F393D0 /* vnGLESViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B02EBA66187F9B3500F393D0 /* vnGLESViewController.mm */; };
+		B02EBA73187FB8E700F393D0 /* vnDeviceImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = B02EBA71187FB8E700F393D0 /* vnDeviceImpl.mm */; };
+		B02EBA76187FBAAB00F393D0 /* vnTextureImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B02EBA74187FBAAB00F393D0 /* vnTextureImpl.cpp */; };
+		B02EBA78187FCBBC00F393D0 /* vnPNGLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B02EBA77187FCBBC00F393D0 /* vnPNGLoader.cpp */; };
+		B02EBAAB187FF89A00F393D0 /* vnCellBasedFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B02EBAAA187FF89A00F393D0 /* vnCellBasedFont.cpp */; };
+		B02EBAB11880090B00F393D0 /* vnFontImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = B02EBAAF1880090B00F393D0 /* vnFontImpl.mm */; };
+		B0331C9B18ACD7BE00CD2E3C /* vnSceneText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0331C9918ACD75E00CD2E3C /* vnSceneText.cpp */; };
+		B0368AE81884EBD3003D74F3 /* vnUIRoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368AE61884DFA2003D74F3 /* vnUIRoot.cpp */; };
+		B0368AF318850AFA003D74F3 /* vnUILocatorBorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368AF018850AFA003D74F3 /* vnUILocatorBorder.cpp */; };
+		B0368AF418850AFA003D74F3 /* vnUILocatorBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368AF118850AFA003D74F3 /* vnUILocatorBox.cpp */; };
+		B0368AF518850AFA003D74F3 /* vnUILocatorRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368AF218850AFA003D74F3 /* vnUILocatorRect.cpp */; };
+		B0368AFC18851E1F003D74F3 /* vnUILabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368AFB18851E1F003D74F3 /* vnUILabel.cpp */; };
+		B0368B76188547E7003D74F3 /* vnUIFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0368B75188547E7003D74F3 /* vnUIFrame.cpp */; };
+		B03C8768188393CB00CDE0B3 /* vnFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C8767188393CB00CDE0B3 /* vnFont.cpp */; };
+		B03C876B1883C76B00CDE0B3 /* vnFontString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C876A1883C76B00CDE0B3 /* vnFontString.cpp */; };
+		B03C87751883DB4E00CDE0B3 /* vnFontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87741883DB4E00CDE0B3 /* vnFontManager.cpp */; };
+		B03C87781883EE5C00CDE0B3 /* vnUIFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87771883EE5C00CDE0B3 /* vnUIFactory.cpp */; };
+		B03C87811883F2BA00CDE0B3 /* vnUILocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87801883F2BA00CDE0B3 /* vnUILocator.cpp */; };
+		B03C87841883F40B00CDE0B3 /* vnUIImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87831883F40B00CDE0B3 /* vnUIImage.cpp */; };
+		B03C87871883F52300CDE0B3 /* vnUIRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87861883F52300CDE0B3 /* vnUIRenderer.cpp */; };
+		B03C878A1883FD9A00CDE0B3 /* vnUIElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87891883FD9A00CDE0B3 /* vnUIElement.cpp */; };
+		B03C87991884175A00CDE0B3 /* vnUIPicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03C87981884175A00CDE0B3 /* vnUIPicture.cpp */; };
+		B04D444318BAF7E200BCE03E /* vnUITextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B04D444118BAF7C800BCE03E /* vnUITextField.cpp */; };
+		B055A71618CEBA5D00655A25 /* vnSceneNodeContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B055A71518CEBA5D00655A25 /* vnSceneNodeContainer.cpp */; };
+		B08E5BA418865F0400A2E60A /* vnUIButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08E5BA318865F0400A2E60A /* vnUIButton.cpp */; };
+		B08E5BB91886799400A2E60A /* vnSceneCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08E5BB81886799400A2E60A /* vnSceneCamera.cpp */; };
+		B08E5BC3188692B600A2E60A /* vnSceneQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08E5BC2188692B600A2E60A /* vnSceneQuad.cpp */; };
+		B0A4D16918927C88008ED44A /* libpng_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B02EBA7F187FCE1900F393D0 /* libpng_ios.a */; };
+		B0D752C31945B201005E2CDC /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D752B91945B1C2005E2CDC /* libogg.a */; };
+		B0D752C41945B203005E2CDC /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D752C21945B1D4005E2CDC /* libvorbis.a */; };
+		B0D752C51945B207005E2CDC /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D752C01945B1D4005E2CDC /* libvorbisfile.a */; };
+		B0E3B16C1945801E0042A9EF /* vnRunLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E3B16B1945801E0042A9EF /* vnRunLoop.cpp */; };
+		B0E3B172194583840042A9EF /* vnSoundEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E3B171194583840042A9EF /* vnSoundEngine.cpp */; };
+		B0E41D8618DADE1F00443F02 /* vnUIRenderEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E41D8418DADDC300443F02 /* vnUIRenderEffect.cpp */; };
+		F547D2FD195A7A6800F0E012 /* vnLinkImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F547D2FB195A7A6800F0E012 /* vnLinkImpl.cpp */; };
+		F58D1510193F09CD00B6FBD8 /* vnLinkBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58D150D193F09CD00B6FBD8 /* vnLinkBuffer.cpp */; };
+		F58D1511193F09CD00B6FBD8 /* vnPackingStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58D150E193F09CD00B6FBD8 /* vnPackingStream.cpp */; };
+		F58D1512193F09CD00B6FBD8 /* vnUnpackingStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58D150F193F09CD00B6FBD8 /* vnUnpackingStream.cpp */; };
+		F58D1515193F0B2500B6FBD8 /* vnCompressedInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58D1514193F0B2500B6FBD8 /* vnCompressedInt.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B02EBA7E187FCE1900F393D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02EBA79187FCE1900F393D0 /* png.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B0E868F216154DB100AF1994;
+			remoteInfo = png_ios;
+		};
+		B02EBA81187FCE5E00F393D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02EBA79187FCE1900F393D0 /* png.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E868D516154DB100AF1994;
+			remoteInfo = png_ios;
+		};
+		B0D752B81945B1C2005E2CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D752B41945B1C2005E2CDC /* Ogg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 186CF20A17CC56CB0021A6CA;
+			remoteInfo = ogg;
+		};
+		B0D752BF1945B1D4005E2CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D752BA1945B1D4005E2CDC /* Vorbis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18EC620A17CC5C3C0042E7CD;
+			remoteInfo = vorbisfile;
+		};
+		B0D752C11945B1D4005E2CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D752BA1945B1D4005E2CDC /* Vorbis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18EC628317CC67190042E7CD;
+			remoteInfo = vorbis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B018703E187EB58B00C9ACAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0187040187EB58B00C9ACAE /* vn2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = vn2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01870EF187EB7DA00C9ACAE /* vn2dDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vn2dDef.h; sourceTree = "<group>"; };
+		B01870F0187EB7DA00C9ACAE /* vnAABox2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnAABox2.h; sourceTree = "<group>"; };
+		B01870F1187EB7DA00C9ACAE /* vnAllocatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnAllocatedObject.h; sourceTree = "<group>"; };
+		B01870F2187EB7DA00C9ACAE /* vnApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnApplication.h; sourceTree = "<group>"; };
+		B01870F3187EB7DA00C9ACAE /* vnAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnAssert.h; sourceTree = "<group>"; };
+		B01870F4187EB7DA00C9ACAE /* vnAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnAtomic.h; sourceTree = "<group>"; };
+		B01870F5187EB7DA00C9ACAE /* vnBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnBuffer.h; sourceTree = "<group>"; };
+		B01870F6187EB7DA00C9ACAE /* vnColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnColor.h; sourceTree = "<group>"; };
+		B01870F7187EB7DA00C9ACAE /* vnDataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnDataStream.h; sourceTree = "<group>"; };
+		B01870F8187EB7DA00C9ACAE /* vnDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnDevice.h; sourceTree = "<group>"; };
+		B01870F9187EB7DA00C9ACAE /* vnFastMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFastMutex.h; sourceTree = "<group>"; };
+		B01870FA187EB7DA00C9ACAE /* vnFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFileManager.h; sourceTree = "<group>"; };
+		B01870FB187EB7DA00C9ACAE /* vnFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFilePath.h; sourceTree = "<group>"; };
+		B01870FC187EB7DA00C9ACAE /* vnFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFileSystem.h; sourceTree = "<group>"; };
+		B01870FD187EB7DA00C9ACAE /* vnFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction.h; sourceTree = "<group>"; };
+		B01870FE187EB7DA00C9ACAE /* vnFunction0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction0.h; sourceTree = "<group>"; };
+		B01870FF187EB7DA00C9ACAE /* vnFunction1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction1.h; sourceTree = "<group>"; };
+		B0187100187EB7DA00C9ACAE /* vnFunction2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction2.h; sourceTree = "<group>"; };
+		B0187101187EB7DA00C9ACAE /* vnFunction3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction3.h; sourceTree = "<group>"; };
+		B0187102187EB7DA00C9ACAE /* vnFunction4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunction4.h; sourceTree = "<group>"; };
+		B0187103187EB7DA00C9ACAE /* vnFunctionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFunctionBase.h; sourceTree = "<group>"; };
+		B0187104187EB7DA00C9ACAE /* vnLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLog.h; sourceTree = "<group>"; };
+		B0187105187EB7DA00C9ACAE /* vnMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnMath.h; sourceTree = "<group>"; };
+		B0187106187EB7DA00C9ACAE /* vnMatrix2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnMatrix2.h; sourceTree = "<group>"; };
+		B0187107187EB7DA00C9ACAE /* vnMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnMatrix3.h; sourceTree = "<group>"; };
+		B0187108187EB7DA00C9ACAE /* vnMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnMemory.h; sourceTree = "<group>"; };
+		B0187109187EB7DA00C9ACAE /* vnMemoryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnMemoryTracker.h; sourceTree = "<group>"; };
+		B018710A187EB7DA00C9ACAE /* vnNonCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnNonCopyable.h; sourceTree = "<group>"; };
+		B018710B187EB7DA00C9ACAE /* vnPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPicture.h; sourceTree = "<group>"; };
+		B018710C187EB7DA00C9ACAE /* vnPictureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPictureManager.h; sourceTree = "<group>"; };
+		B018710D187EB7DA00C9ACAE /* vnPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPlatform.h; sourceTree = "<group>"; };
+		B018710E187EB7DA00C9ACAE /* vnQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnQuad.h; sourceTree = "<group>"; };
+		B018710F187EB7DA00C9ACAE /* vnRecursiveLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnRecursiveLock.h; sourceTree = "<group>"; };
+		B0187110187EB7DA00C9ACAE /* vnRefCounted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnRefCounted.h; sourceTree = "<group>"; };
+		B0187111187EB7DA00C9ACAE /* vnSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnSceneNode.h; sourceTree = "<group>"; };
+		B0187112187EB7DA00C9ACAE /* vnSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnSceneObject.h; sourceTree = "<group>"; };
+		B0187113187EB7DA00C9ACAE /* vnScopedLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnScopedLock.h; sourceTree = "<group>"; };
+		B0187114187EB7DA00C9ACAE /* vnSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnSingleton.h; sourceTree = "<group>"; };
+		B0187115187EB7DA00C9ACAE /* vnSingletonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnSingletonManager.h; sourceTree = "<group>"; };
+		B0187116187EB7DA00C9ACAE /* vnTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTexture.h; sourceTree = "<group>"; };
+		B0187117187EB7DA00C9ACAE /* vnTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTextureManager.h; sourceTree = "<group>"; };
+		B0187118187EB7DA00C9ACAE /* vnTreeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTreeData.h; sourceTree = "<group>"; };
+		B0187119187EB7DA00C9ACAE /* vnTreeDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTreeDataParser.h; sourceTree = "<group>"; };
+		B018711A187EB7DA00C9ACAE /* vnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTypes.h; sourceTree = "<group>"; };
+		B018711B187EB7DA00C9ACAE /* vnUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUnicode.h; sourceTree = "<group>"; };
+		B018711C187EB7DA00C9ACAE /* vnVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnVector2.h; sourceTree = "<group>"; };
+		B018711D187EB7DA00C9ACAE /* vnVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnVector3.h; sourceTree = "<group>"; };
+		B018711E187EB7DA00C9ACAE /* vnVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnVertex.h; sourceTree = "<group>"; };
+		B0187120187EB7F900C9ACAE /* vnApplicationImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = vnApplicationImpl.mm; sourceTree = "<group>"; };
+		B0187121187EB7F900C9ACAE /* vnApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnApplicationImpl.h; sourceTree = "<group>"; };
+		B0187122187EB7F900C9ACAE /* vnAtomic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnAtomic.cpp; sourceTree = "<group>"; };
+		B0187123187EB7F900C9ACAE /* vnFastMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFastMutex.cpp; sourceTree = "<group>"; };
+		B0187124187EB7F900C9ACAE /* vnFileSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFileSystem.cpp; sourceTree = "<group>"; };
+		B0187126187EB7F900C9ACAE /* vnLR_Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLR_Node.cpp; sourceTree = "<group>"; };
+		B0187127187EB7F900C9ACAE /* vnLR_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLR_Node.h; sourceTree = "<group>"; };
+		B0187128187EB7F900C9ACAE /* vnLR_Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLR_Parser.cpp; sourceTree = "<group>"; };
+		B0187129187EB7F900C9ACAE /* vnLR_Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLR_Parser.h; sourceTree = "<group>"; };
+		B018712A187EB7F900C9ACAE /* vnLR_State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLR_State.h; sourceTree = "<group>"; };
+		B018712B187EB7F900C9ACAE /* vnLexDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLexDef.h; sourceTree = "<group>"; };
+		B018712C187EB7F900C9ACAE /* vnLexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLexer.cpp; sourceTree = "<group>"; };
+		B018712D187EB7F900C9ACAE /* vnLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLexer.h; sourceTree = "<group>"; };
+		B018712E187EB7F900C9ACAE /* vnLexicalAnalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLexicalAnalizer.cpp; sourceTree = "<group>"; };
+		B018712F187EB7F900C9ACAE /* vnLexicalAnalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLexicalAnalizer.h; sourceTree = "<group>"; };
+		B0187130187EB7F900C9ACAE /* vnToken.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnToken.cpp; sourceTree = "<group>"; };
+		B0187131187EB7F900C9ACAE /* vnToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnToken.h; sourceTree = "<group>"; };
+		B0187132187EB7F900C9ACAE /* vnTreeDataScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTreeDataScript.cpp; sourceTree = "<group>"; };
+		B0187133187EB7F900C9ACAE /* vnTreeDataScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTreeDataScript.h; sourceTree = "<group>"; };
+		B0187134187EB7F900C9ACAE /* vnTreeDataScriptProductions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTreeDataScriptProductions.h; sourceTree = "<group>"; };
+		B0187135187EB7F900C9ACAE /* vnTreeDataScriptStates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vnTreeDataScriptStates.hpp; sourceTree = "<group>"; };
+		B0187136187EB7F900C9ACAE /* vnAllocatedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnAllocatedObject.cpp; sourceTree = "<group>"; };
+		B0187137187EB7F900C9ACAE /* vnApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnApplication.cpp; sourceTree = "<group>"; };
+		B0187138187EB7F900C9ACAE /* vnBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnBuffer.cpp; sourceTree = "<group>"; };
+		B0187139187EB7F900C9ACAE /* vnColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnColor.cpp; sourceTree = "<group>"; };
+		B018713A187EB7F900C9ACAE /* vnDataStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnDataStream.cpp; sourceTree = "<group>"; };
+		B018713B187EB7F900C9ACAE /* vnDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnDevice.cpp; sourceTree = "<group>"; };
+		B018713C187EB7F900C9ACAE /* vnFileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFileManager.cpp; sourceTree = "<group>"; };
+		B018713D187EB7F900C9ACAE /* vnFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFilePath.cpp; sourceTree = "<group>"; };
+		B018713E187EB7F900C9ACAE /* vnLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLog.cpp; sourceTree = "<group>"; };
+		B018713F187EB7F900C9ACAE /* vnMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnMath.cpp; sourceTree = "<group>"; };
+		B0187140187EB7F900C9ACAE /* vnMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnMemory.cpp; sourceTree = "<group>"; };
+		B0187141187EB7F900C9ACAE /* vnMemoryTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnMemoryTracker.cpp; sourceTree = "<group>"; };
+		B0187142187EB7F900C9ACAE /* vnNonCopyable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnNonCopyable.cpp; sourceTree = "<group>"; };
+		B0187143187EB7F900C9ACAE /* vnPicture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnPicture.cpp; sourceTree = "<group>"; };
+		B0187144187EB7F900C9ACAE /* vnPictureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnPictureManager.cpp; sourceTree = "<group>"; };
+		B0187145187EB7F900C9ACAE /* vnQuad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnQuad.cpp; sourceTree = "<group>"; };
+		B0187146187EB7F900C9ACAE /* vnRefCounted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnRefCounted.cpp; sourceTree = "<group>"; };
+		B0187147187EB7F900C9ACAE /* vnSceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneNode.cpp; sourceTree = "<group>"; };
+		B0187148187EB7F900C9ACAE /* vnSceneObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneObject.cpp; sourceTree = "<group>"; };
+		B0187149187EB7F900C9ACAE /* vnSingletonManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSingletonManager.cpp; sourceTree = "<group>"; };
+		B018714A187EB7F900C9ACAE /* vnTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTexture.cpp; sourceTree = "<group>"; };
+		B018714B187EB7F900C9ACAE /* vnTextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTextureManager.cpp; sourceTree = "<group>"; };
+		B018714C187EB7F900C9ACAE /* vnTreeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTreeData.cpp; sourceTree = "<group>"; };
+		B018714D187EB7F900C9ACAE /* vnTreeDataParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTreeDataParser.cpp; sourceTree = "<group>"; };
+		B018714E187EB7F900C9ACAE /* vnUnicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUnicode.cpp; sourceTree = "<group>"; };
+		B0187173187EBBD800C9ACAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B026A36D18D96F7700A54039 /* vnSceneNodeAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSceneNodeAnimator.h; sourceTree = "<group>"; };
+		B026A36E18D970D500A54039 /* vnSceneNodeAnimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneNodeAnimator.cpp; sourceTree = "<group>"; };
+		B02EBA63187F942500F393D0 /* vnGLESView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = vnGLESView.mm; sourceTree = "<group>"; };
+		B02EBA64187F942500F393D0 /* vnGLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnGLESView.h; sourceTree = "<group>"; };
+		B02EBA66187F9B3500F393D0 /* vnGLESViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = vnGLESViewController.mm; sourceTree = "<group>"; };
+		B02EBA67187F9B3500F393D0 /* vnGLESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnGLESViewController.h; sourceTree = "<group>"; };
+		B02EBA6D187FA8A900F393D0 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B02EBA71187FB8E700F393D0 /* vnDeviceImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = vnDeviceImpl.mm; sourceTree = "<group>"; };
+		B02EBA72187FB8E700F393D0 /* vnDeviceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnDeviceImpl.h; sourceTree = "<group>"; };
+		B02EBA74187FBAAB00F393D0 /* vnTextureImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnTextureImpl.cpp; sourceTree = "<group>"; };
+		B02EBA75187FBAAB00F393D0 /* vnTextureImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnTextureImpl.h; sourceTree = "<group>"; };
+		B02EBA77187FCBBC00F393D0 /* vnPNGLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnPNGLoader.cpp; sourceTree = "<group>"; };
+		B02EBA79187FCE1900F393D0 /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = png.xcodeproj; path = ../../dep/libpng/prj/xcode/png.xcodeproj; sourceTree = "<group>"; };
+		B02EBA9F187FEEA500F393D0 /* vnFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFont.h; sourceTree = "<group>"; };
+		B02EBAA9187FF20C00F393D0 /* vnCellBasedFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnCellBasedFont.h; sourceTree = "<group>"; };
+		B02EBAAA187FF89A00F393D0 /* vnCellBasedFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnCellBasedFont.cpp; sourceTree = "<group>"; };
+		B02EBAAF1880090B00F393D0 /* vnFontImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = vnFontImpl.mm; sourceTree = "<group>"; };
+		B02EBAB01880090B00F393D0 /* vnFontImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnFontImpl.h; sourceTree = "<group>"; };
+		B0331C9818ACD73B00CD2E3C /* vnSceneText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSceneText.h; sourceTree = "<group>"; };
+		B0331C9918ACD75E00CD2E3C /* vnSceneText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneText.cpp; sourceTree = "<group>"; };
+		B0368AE11884DDD2003D74F3 /* vnUIRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIRoot.h; sourceTree = "<group>"; };
+		B0368AE61884DFA2003D74F3 /* vnUIRoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIRoot.cpp; sourceTree = "<group>"; };
+		B0368AED18850AEC003D74F3 /* vnUILocatorBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUILocatorBorder.h; sourceTree = "<group>"; };
+		B0368AEE18850AEC003D74F3 /* vnUILocatorBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUILocatorBox.h; sourceTree = "<group>"; };
+		B0368AEF18850AEC003D74F3 /* vnUILocatorRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUILocatorRect.h; sourceTree = "<group>"; };
+		B0368AF018850AFA003D74F3 /* vnUILocatorBorder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUILocatorBorder.cpp; sourceTree = "<group>"; };
+		B0368AF118850AFA003D74F3 /* vnUILocatorBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUILocatorBox.cpp; sourceTree = "<group>"; };
+		B0368AF218850AFA003D74F3 /* vnUILocatorRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUILocatorRect.cpp; sourceTree = "<group>"; };
+		B0368AFA18851DCB003D74F3 /* vnUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUILabel.h; sourceTree = "<group>"; };
+		B0368AFB18851E1F003D74F3 /* vnUILabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUILabel.cpp; sourceTree = "<group>"; };
+		B0368B74188547AB003D74F3 /* vnUIFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIFrame.h; sourceTree = "<group>"; };
+		B0368B75188547E7003D74F3 /* vnUIFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIFrame.cpp; sourceTree = "<group>"; };
+		B03C8767188393CB00CDE0B3 /* vnFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFont.cpp; sourceTree = "<group>"; };
+		B03C87691883C73F00CDE0B3 /* vnFontString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnFontString.h; sourceTree = "<group>"; };
+		B03C876A1883C76B00CDE0B3 /* vnFontString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFontString.cpp; sourceTree = "<group>"; };
+		B03C87731883DB2D00CDE0B3 /* vnFontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnFontManager.h; sourceTree = "<group>"; };
+		B03C87741883DB4E00CDE0B3 /* vnFontManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnFontManager.cpp; sourceTree = "<group>"; };
+		B03C87761883EDF400CDE0B3 /* vnUIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIFactory.h; sourceTree = "<group>"; };
+		B03C87771883EE5C00CDE0B3 /* vnUIFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIFactory.cpp; sourceTree = "<group>"; };
+		B03C877E1883F1B700CDE0B3 /* vnUICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUICommon.h; sourceTree = "<group>"; };
+		B03C877F1883F23500CDE0B3 /* vnUILocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUILocator.h; sourceTree = "<group>"; };
+		B03C87801883F2BA00CDE0B3 /* vnUILocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUILocator.cpp; sourceTree = "<group>"; };
+		B03C87821883F33C00CDE0B3 /* vnUIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIImage.h; sourceTree = "<group>"; };
+		B03C87831883F40B00CDE0B3 /* vnUIImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIImage.cpp; sourceTree = "<group>"; };
+		B03C87851883F49600CDE0B3 /* vnUIRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIRenderer.h; sourceTree = "<group>"; };
+		B03C87861883F52300CDE0B3 /* vnUIRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIRenderer.cpp; sourceTree = "<group>"; };
+		B03C87881883FB2300CDE0B3 /* vnUIElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIElement.h; sourceTree = "<group>"; };
+		B03C87891883FD9A00CDE0B3 /* vnUIElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIElement.cpp; sourceTree = "<group>"; };
+		B03C87971884174D00CDE0B3 /* vnUIPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUIPicture.h; sourceTree = "<group>"; };
+		B03C87981884175A00CDE0B3 /* vnUIPicture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIPicture.cpp; sourceTree = "<group>"; };
+		B04D444018BAF7A500BCE03E /* vnUITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUITextField.h; sourceTree = "<group>"; };
+		B04D444118BAF7C800BCE03E /* vnUITextField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUITextField.cpp; sourceTree = "<group>"; };
+		B055A71418CEBA3400655A25 /* vnSceneNodeContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSceneNodeContainer.h; sourceTree = "<group>"; };
+		B055A71518CEBA5D00655A25 /* vnSceneNodeContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneNodeContainer.cpp; sourceTree = "<group>"; };
+		B08E5BA218865EF900A2E60A /* vnUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUIButton.h; sourceTree = "<group>"; };
+		B08E5BA318865F0400A2E60A /* vnUIButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIButton.cpp; sourceTree = "<group>"; };
+		B08E5BB1188678D400A2E60A /* vnSceneCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSceneCamera.h; sourceTree = "<group>"; };
+		B08E5BB81886799400A2E60A /* vnSceneCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneCamera.cpp; sourceTree = "<group>"; };
+		B08E5BC11886921100A2E60A /* vnSceneQuad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSceneQuad.h; sourceTree = "<group>"; };
+		B08E5BC2188692B600A2E60A /* vnSceneQuad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSceneQuad.cpp; sourceTree = "<group>"; };
+		B0AE37EA1951887C00ECB0F7 /* vnLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnLink.h; sourceTree = "<group>"; };
+		B0D752B41945B1C2005E2CDC /* Ogg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ogg.xcodeproj; path = ../../dep/libogg/prj/xcode/Ogg.xcodeproj; sourceTree = "<group>"; };
+		B0D752BA1945B1D4005E2CDC /* Vorbis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Vorbis.xcodeproj; path = ../../dep/libvorbis/prj/xcode/Vorbis.xcodeproj; sourceTree = "<group>"; };
+		B0E3B16919457FE60042A9EF /* vnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnList.h; sourceTree = "<group>"; };
+		B0E3B16A19457FE60042A9EF /* vnRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnRunLoop.h; sourceTree = "<group>"; };
+		B0E3B16B1945801E0042A9EF /* vnRunLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnRunLoop.cpp; sourceTree = "<group>"; };
+		B0E3B170194581030042A9EF /* vnSoundEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnSoundEngine.h; sourceTree = "<group>"; };
+		B0E3B171194583840042A9EF /* vnSoundEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnSoundEngine.cpp; sourceTree = "<group>"; };
+		B0E41D8318DAD9DE00443F02 /* vnUIRenderEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnUIRenderEffect.h; sourceTree = "<group>"; };
+		B0E41D8418DADDC300443F02 /* vnUIRenderEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUIRenderEffect.cpp; sourceTree = "<group>"; };
+		F547D2FB195A7A6800F0E012 /* vnLinkImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLinkImpl.cpp; sourceTree = "<group>"; };
+		F547D2FC195A7A6800F0E012 /* vnLinkImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLinkImpl.h; sourceTree = "<group>"; };
+		F58D1509193F09B600B6FBD8 /* vnPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPacket.h; sourceTree = "<group>"; };
+		F58D150A193F09B600B6FBD8 /* vnPacketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPacketFactory.h; sourceTree = "<group>"; };
+		F58D150B193F09B600B6FBD8 /* vnPackingStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnPackingStream.h; sourceTree = "<group>"; };
+		F58D150C193F09B600B6FBD8 /* vnUnpackingStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnUnpackingStream.h; sourceTree = "<group>"; };
+		F58D150D193F09CD00B6FBD8 /* vnLinkBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnLinkBuffer.cpp; sourceTree = "<group>"; };
+		F58D150E193F09CD00B6FBD8 /* vnPackingStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnPackingStream.cpp; sourceTree = "<group>"; };
+		F58D150F193F09CD00B6FBD8 /* vnUnpackingStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnUnpackingStream.cpp; sourceTree = "<group>"; };
+		F58D1513193F0B1000B6FBD8 /* vnCompressedInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnCompressedInt.h; sourceTree = "<group>"; };
+		F58D1514193F0B2500B6FBD8 /* vnCompressedInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vnCompressedInt.cpp; sourceTree = "<group>"; };
+		F58D151C193F113B00B6FBD8 /* vnLinkBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vnLinkBuffer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B018703D187EB58B00C9ACAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D752C51945B207005E2CDC /* libvorbisfile.a in Frameworks */,
+				B0D752C41945B203005E2CDC /* libvorbis.a in Frameworks */,
+				B0D752C31945B201005E2CDC /* libogg.a in Frameworks */,
+				B0A4D16918927C88008ED44A /* libpng_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0187037187EB58B00C9ACAE = {
+			isa = PBXGroup;
+			children = (
+				B018706B187EB69400C9ACAE /* Libraries */,
+				B0187069187EB68A00C9ACAE /* Include */,
+				B018706A187EB69000C9ACAE /* Source */,
+				B0187172187EBBC200C9ACAE /* Frameworks */,
+				B0187041187EB58B00C9ACAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0187041187EB58B00C9ACAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0187040187EB58B00C9ACAE /* vn2d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0187069187EB68A00C9ACAE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B01870EF187EB7DA00C9ACAE /* vn2dDef.h */,
+				B01870F0187EB7DA00C9ACAE /* vnAABox2.h */,
+				B01870F1187EB7DA00C9ACAE /* vnAllocatedObject.h */,
+				B01870F2187EB7DA00C9ACAE /* vnApplication.h */,
+				B01870F3187EB7DA00C9ACAE /* vnAssert.h */,
+				B01870F4187EB7DA00C9ACAE /* vnAtomic.h */,
+				B01870F5187EB7DA00C9ACAE /* vnBuffer.h */,
+				B02EBAA9187FF20C00F393D0 /* vnCellBasedFont.h */,
+				B01870F6187EB7DA00C9ACAE /* vnColor.h */,
+				F58D1513193F0B1000B6FBD8 /* vnCompressedInt.h */,
+				B01870F7187EB7DA00C9ACAE /* vnDataStream.h */,
+				B01870F8187EB7DA00C9ACAE /* vnDevice.h */,
+				B01870F9187EB7DA00C9ACAE /* vnFastMutex.h */,
+				B01870FA187EB7DA00C9ACAE /* vnFileManager.h */,
+				B01870FB187EB7DA00C9ACAE /* vnFilePath.h */,
+				B01870FC187EB7DA00C9ACAE /* vnFileSystem.h */,
+				B02EBA9F187FEEA500F393D0 /* vnFont.h */,
+				B03C87731883DB2D00CDE0B3 /* vnFontManager.h */,
+				B03C87691883C73F00CDE0B3 /* vnFontString.h */,
+				B01870FD187EB7DA00C9ACAE /* vnFunction.h */,
+				B01870FE187EB7DA00C9ACAE /* vnFunction0.h */,
+				B01870FF187EB7DA00C9ACAE /* vnFunction1.h */,
+				B0187100187EB7DA00C9ACAE /* vnFunction2.h */,
+				B0187101187EB7DA00C9ACAE /* vnFunction3.h */,
+				B0187102187EB7DA00C9ACAE /* vnFunction4.h */,
+				B0187103187EB7DA00C9ACAE /* vnFunctionBase.h */,
+				B0AE37EA1951887C00ECB0F7 /* vnLink.h */,
+				F58D151C193F113B00B6FBD8 /* vnLinkBuffer.h */,
+				B0E3B16919457FE60042A9EF /* vnList.h */,
+				B0187104187EB7DA00C9ACAE /* vnLog.h */,
+				B0187105187EB7DA00C9ACAE /* vnMath.h */,
+				B0187106187EB7DA00C9ACAE /* vnMatrix2.h */,
+				B0187107187EB7DA00C9ACAE /* vnMatrix3.h */,
+				B0187108187EB7DA00C9ACAE /* vnMemory.h */,
+				B0187109187EB7DA00C9ACAE /* vnMemoryTracker.h */,
+				B018710A187EB7DA00C9ACAE /* vnNonCopyable.h */,
+				F58D1509193F09B600B6FBD8 /* vnPacket.h */,
+				F58D150A193F09B600B6FBD8 /* vnPacketFactory.h */,
+				F58D150B193F09B600B6FBD8 /* vnPackingStream.h */,
+				B018710B187EB7DA00C9ACAE /* vnPicture.h */,
+				B018710C187EB7DA00C9ACAE /* vnPictureManager.h */,
+				B018710D187EB7DA00C9ACAE /* vnPlatform.h */,
+				B018710E187EB7DA00C9ACAE /* vnQuad.h */,
+				B018710F187EB7DA00C9ACAE /* vnRecursiveLock.h */,
+				B0187110187EB7DA00C9ACAE /* vnRefCounted.h */,
+				B0E3B16A19457FE60042A9EF /* vnRunLoop.h */,
+				B08E5BB1188678D400A2E60A /* vnSceneCamera.h */,
+				B0187111187EB7DA00C9ACAE /* vnSceneNode.h */,
+				B026A36D18D96F7700A54039 /* vnSceneNodeAnimator.h */,
+				B055A71418CEBA3400655A25 /* vnSceneNodeContainer.h */,
+				B0187112187EB7DA00C9ACAE /* vnSceneObject.h */,
+				B08E5BC11886921100A2E60A /* vnSceneQuad.h */,
+				B0331C9818ACD73B00CD2E3C /* vnSceneText.h */,
+				B0187113187EB7DA00C9ACAE /* vnScopedLock.h */,
+				B0187114187EB7DA00C9ACAE /* vnSingleton.h */,
+				B0187115187EB7DA00C9ACAE /* vnSingletonManager.h */,
+				B0E3B170194581030042A9EF /* vnSoundEngine.h */,
+				B0187116187EB7DA00C9ACAE /* vnTexture.h */,
+				B0187117187EB7DA00C9ACAE /* vnTextureManager.h */,
+				B0187118187EB7DA00C9ACAE /* vnTreeData.h */,
+				B0187119187EB7DA00C9ACAE /* vnTreeDataParser.h */,
+				B018711A187EB7DA00C9ACAE /* vnTypes.h */,
+				B08E5BA218865EF900A2E60A /* vnUIButton.h */,
+				B03C877E1883F1B700CDE0B3 /* vnUICommon.h */,
+				B03C87881883FB2300CDE0B3 /* vnUIElement.h */,
+				B03C87761883EDF400CDE0B3 /* vnUIFactory.h */,
+				B0368B74188547AB003D74F3 /* vnUIFrame.h */,
+				B03C87821883F33C00CDE0B3 /* vnUIImage.h */,
+				B0368AFA18851DCB003D74F3 /* vnUILabel.h */,
+				B03C877F1883F23500CDE0B3 /* vnUILocator.h */,
+				B0368AED18850AEC003D74F3 /* vnUILocatorBorder.h */,
+				B0368AEE18850AEC003D74F3 /* vnUILocatorBox.h */,
+				B0368AEF18850AEC003D74F3 /* vnUILocatorRect.h */,
+				B03C87971884174D00CDE0B3 /* vnUIPicture.h */,
+				B0E41D8318DAD9DE00443F02 /* vnUIRenderEffect.h */,
+				B03C87851883F49600CDE0B3 /* vnUIRenderer.h */,
+				B0368AE11884DDD2003D74F3 /* vnUIRoot.h */,
+				B04D444018BAF7A500BCE03E /* vnUITextField.h */,
+				B018711B187EB7DA00C9ACAE /* vnUnicode.h */,
+				F58D150C193F09B600B6FBD8 /* vnUnpackingStream.h */,
+				B018711C187EB7DA00C9ACAE /* vnVector2.h */,
+				B018711D187EB7DA00C9ACAE /* vnVector3.h */,
+				B018711E187EB7DA00C9ACAE /* vnVertex.h */,
+			);
+			name = Include;
+			path = ../../inc;
+			sourceTree = "<group>";
+		};
+		B018706A187EB69000C9ACAE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B018711F187EB7F900C9ACAE /* ios */,
+				B0187125187EB7F900C9ACAE /* lex */,
+				B0187136187EB7F900C9ACAE /* vnAllocatedObject.cpp */,
+				B0187137187EB7F900C9ACAE /* vnApplication.cpp */,
+				B0187138187EB7F900C9ACAE /* vnBuffer.cpp */,
+				B02EBAAA187FF89A00F393D0 /* vnCellBasedFont.cpp */,
+				B0187139187EB7F900C9ACAE /* vnColor.cpp */,
+				F58D1514193F0B2500B6FBD8 /* vnCompressedInt.cpp */,
+				B018713A187EB7F900C9ACAE /* vnDataStream.cpp */,
+				B018713B187EB7F900C9ACAE /* vnDevice.cpp */,
+				B018713C187EB7F900C9ACAE /* vnFileManager.cpp */,
+				B018713D187EB7F900C9ACAE /* vnFilePath.cpp */,
+				B03C8767188393CB00CDE0B3 /* vnFont.cpp */,
+				B03C87741883DB4E00CDE0B3 /* vnFontManager.cpp */,
+				B03C876A1883C76B00CDE0B3 /* vnFontString.cpp */,
+				F58D150D193F09CD00B6FBD8 /* vnLinkBuffer.cpp */,
+				B018713E187EB7F900C9ACAE /* vnLog.cpp */,
+				B018713F187EB7F900C9ACAE /* vnMath.cpp */,
+				B0187140187EB7F900C9ACAE /* vnMemory.cpp */,
+				B0187141187EB7F900C9ACAE /* vnMemoryTracker.cpp */,
+				B0187142187EB7F900C9ACAE /* vnNonCopyable.cpp */,
+				F58D150E193F09CD00B6FBD8 /* vnPackingStream.cpp */,
+				B0187143187EB7F900C9ACAE /* vnPicture.cpp */,
+				B0187144187EB7F900C9ACAE /* vnPictureManager.cpp */,
+				B0187145187EB7F900C9ACAE /* vnQuad.cpp */,
+				B0187146187EB7F900C9ACAE /* vnRefCounted.cpp */,
+				B0E3B16B1945801E0042A9EF /* vnRunLoop.cpp */,
+				B08E5BB81886799400A2E60A /* vnSceneCamera.cpp */,
+				B0187147187EB7F900C9ACAE /* vnSceneNode.cpp */,
+				B026A36E18D970D500A54039 /* vnSceneNodeAnimator.cpp */,
+				B055A71518CEBA5D00655A25 /* vnSceneNodeContainer.cpp */,
+				B0187148187EB7F900C9ACAE /* vnSceneObject.cpp */,
+				B08E5BC2188692B600A2E60A /* vnSceneQuad.cpp */,
+				B0331C9918ACD75E00CD2E3C /* vnSceneText.cpp */,
+				B0187149187EB7F900C9ACAE /* vnSingletonManager.cpp */,
+				B0E3B171194583840042A9EF /* vnSoundEngine.cpp */,
+				B018714A187EB7F900C9ACAE /* vnTexture.cpp */,
+				B018714B187EB7F900C9ACAE /* vnTextureManager.cpp */,
+				B018714C187EB7F900C9ACAE /* vnTreeData.cpp */,
+				B018714D187EB7F900C9ACAE /* vnTreeDataParser.cpp */,
+				B08E5BA318865F0400A2E60A /* vnUIButton.cpp */,
+				B03C87891883FD9A00CDE0B3 /* vnUIElement.cpp */,
+				B03C87771883EE5C00CDE0B3 /* vnUIFactory.cpp */,
+				B0368B75188547E7003D74F3 /* vnUIFrame.cpp */,
+				B03C87831883F40B00CDE0B3 /* vnUIImage.cpp */,
+				B0368AFB18851E1F003D74F3 /* vnUILabel.cpp */,
+				B03C87801883F2BA00CDE0B3 /* vnUILocator.cpp */,
+				B0368AF018850AFA003D74F3 /* vnUILocatorBorder.cpp */,
+				B0368AF118850AFA003D74F3 /* vnUILocatorBox.cpp */,
+				B0368AF218850AFA003D74F3 /* vnUILocatorRect.cpp */,
+				B03C87981884175A00CDE0B3 /* vnUIPicture.cpp */,
+				B0E41D8418DADDC300443F02 /* vnUIRenderEffect.cpp */,
+				B03C87861883F52300CDE0B3 /* vnUIRenderer.cpp */,
+				B0368AE61884DFA2003D74F3 /* vnUIRoot.cpp */,
+				B04D444118BAF7C800BCE03E /* vnUITextField.cpp */,
+				B018714E187EB7F900C9ACAE /* vnUnicode.cpp */,
+				F58D150F193F09CD00B6FBD8 /* vnUnpackingStream.cpp */,
+			);
+			name = Source;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		B018706B187EB69400C9ACAE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B0D752BA1945B1D4005E2CDC /* Vorbis.xcodeproj */,
+				B0D752B41945B1C2005E2CDC /* Ogg.xcodeproj */,
+				B02EBA79187FCE1900F393D0 /* png.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B018711F187EB7F900C9ACAE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B0187121187EB7F900C9ACAE /* vnApplicationImpl.h */,
+				B0187120187EB7F900C9ACAE /* vnApplicationImpl.mm */,
+				B0187122187EB7F900C9ACAE /* vnAtomic.cpp */,
+				B02EBA72187FB8E700F393D0 /* vnDeviceImpl.h */,
+				B02EBA71187FB8E700F393D0 /* vnDeviceImpl.mm */,
+				B0187123187EB7F900C9ACAE /* vnFastMutex.cpp */,
+				B0187124187EB7F900C9ACAE /* vnFileSystem.cpp */,
+				B02EBAB01880090B00F393D0 /* vnFontImpl.h */,
+				B02EBAAF1880090B00F393D0 /* vnFontImpl.mm */,
+				B02EBA64187F942500F393D0 /* vnGLESView.h */,
+				B02EBA63187F942500F393D0 /* vnGLESView.mm */,
+				B02EBA67187F9B3500F393D0 /* vnGLESViewController.h */,
+				B02EBA66187F9B3500F393D0 /* vnGLESViewController.mm */,
+				F547D2FB195A7A6800F0E012 /* vnLinkImpl.cpp */,
+				F547D2FC195A7A6800F0E012 /* vnLinkImpl.h */,
+				B02EBA77187FCBBC00F393D0 /* vnPNGLoader.cpp */,
+				B02EBA74187FBAAB00F393D0 /* vnTextureImpl.cpp */,
+				B02EBA75187FBAAB00F393D0 /* vnTextureImpl.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B0187125187EB7F900C9ACAE /* lex */ = {
+			isa = PBXGroup;
+			children = (
+				B0187126187EB7F900C9ACAE /* vnLR_Node.cpp */,
+				B0187127187EB7F900C9ACAE /* vnLR_Node.h */,
+				B0187128187EB7F900C9ACAE /* vnLR_Parser.cpp */,
+				B0187129187EB7F900C9ACAE /* vnLR_Parser.h */,
+				B018712A187EB7F900C9ACAE /* vnLR_State.h */,
+				B018712B187EB7F900C9ACAE /* vnLexDef.h */,
+				B018712C187EB7F900C9ACAE /* vnLexer.cpp */,
+				B018712D187EB7F900C9ACAE /* vnLexer.h */,
+				B018712E187EB7F900C9ACAE /* vnLexicalAnalizer.cpp */,
+				B018712F187EB7F900C9ACAE /* vnLexicalAnalizer.h */,
+				B0187130187EB7F900C9ACAE /* vnToken.cpp */,
+				B0187131187EB7F900C9ACAE /* vnToken.h */,
+				B0187132187EB7F900C9ACAE /* vnTreeDataScript.cpp */,
+				B0187133187EB7F900C9ACAE /* vnTreeDataScript.h */,
+				B0187134187EB7F900C9ACAE /* vnTreeDataScriptProductions.h */,
+				B0187135187EB7F900C9ACAE /* vnTreeDataScriptStates.hpp */,
+			);
+			path = lex;
+			sourceTree = "<group>";
+		};
+		B0187172187EBBC200C9ACAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02EBA6D187FA8A900F393D0 /* GLKit.framework */,
+				B0187173187EBBD800C9ACAE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02EBA7A187FCE1900F393D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02EBA7F187FCE1900F393D0 /* libpng_ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D752B51945B1C2005E2CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D752B91945B1C2005E2CDC /* libogg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D752BB1945B1D4005E2CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D752C01945B1D4005E2CDC /* libvorbisfile.a */,
+				B0D752C21945B1D4005E2CDC /* libvorbis.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B018703F187EB58B00C9ACAE /* vn2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0187063187EB58B00C9ACAE /* Build configuration list for PBXNativeTarget "vn2d" */;
+			buildPhases = (
+				B018703C187EB58B00C9ACAE /* Sources */,
+				B018703D187EB58B00C9ACAE /* Frameworks */,
+				B018703E187EB58B00C9ACAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02EBA82187FCE5E00F393D0 /* PBXTargetDependency */,
+			);
+			name = vn2d;
+			productName = vn2d;
+			productReference = B0187040187EB58B00C9ACAE /* vn2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0187038187EB58B00C9ACAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = viichi.com;
+			};
+			buildConfigurationList = B018703B187EB58B00C9ACAE /* Build configuration list for PBXProject "vn2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0187037187EB58B00C9ACAE;
+			productRefGroup = B0187041187EB58B00C9ACAE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B0D752B51945B1C2005E2CDC /* Products */;
+					ProjectRef = B0D752B41945B1C2005E2CDC /* Ogg.xcodeproj */;
+				},
+				{
+					ProductGroup = B02EBA7A187FCE1900F393D0 /* Products */;
+					ProjectRef = B02EBA79187FCE1900F393D0 /* png.xcodeproj */;
+				},
+				{
+					ProductGroup = B0D752BB1945B1D4005E2CDC /* Products */;
+					ProjectRef = B0D752BA1945B1D4005E2CDC /* Vorbis.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B018703F187EB58B00C9ACAE /* vn2d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B02EBA7F187FCE1900F393D0 /* libpng_ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpng_ios.a;
+			remoteRef = B02EBA7E187FCE1900F393D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0D752B91945B1C2005E2CDC /* libogg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libogg.a;
+			remoteRef = B0D752B81945B1C2005E2CDC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0D752C01945B1D4005E2CDC /* libvorbisfile.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libvorbisfile.a;
+			remoteRef = B0D752BF1945B1D4005E2CDC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B0D752C21945B1D4005E2CDC /* libvorbis.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libvorbis.a;
+			remoteRef = B0D752C11945B1D4005E2CDC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B018703C187EB58B00C9ACAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02EBA78187FCBBC00F393D0 /* vnPNGLoader.cpp in Sources */,
+				B0187171187EB7F900C9ACAE /* vnUnicode.cpp in Sources */,
+				B0187150187EB7F900C9ACAE /* vnAtomic.cpp in Sources */,
+				B03C87841883F40B00CDE0B3 /* vnUIImage.cpp in Sources */,
+				B018715E187EB7F900C9ACAE /* vnDevice.cpp in Sources */,
+				B0187155187EB7F900C9ACAE /* vnLexer.cpp in Sources */,
+				B0E3B172194583840042A9EF /* vnSoundEngine.cpp in Sources */,
+				B018715A187EB7F900C9ACAE /* vnApplication.cpp in Sources */,
+				B0187160187EB7F900C9ACAE /* vnFilePath.cpp in Sources */,
+				B0187164187EB7F900C9ACAE /* vnMemoryTracker.cpp in Sources */,
+				B02EBA68187F9B3500F393D0 /* vnGLESViewController.mm in Sources */,
+				B0368AF418850AFA003D74F3 /* vnUILocatorBox.cpp in Sources */,
+				B04D444318BAF7E200BCE03E /* vnUITextField.cpp in Sources */,
+				B03C87811883F2BA00CDE0B3 /* vnUILocator.cpp in Sources */,
+				B0E3B16C1945801E0042A9EF /* vnRunLoop.cpp in Sources */,
+				B02EBAAB187FF89A00F393D0 /* vnCellBasedFont.cpp in Sources */,
+				B0187163187EB7F900C9ACAE /* vnMemory.cpp in Sources */,
+				B03C87751883DB4E00CDE0B3 /* vnFontManager.cpp in Sources */,
+				B08E5BA418865F0400A2E60A /* vnUIButton.cpp in Sources */,
+				B03C876B1883C76B00CDE0B3 /* vnFontString.cpp in Sources */,
+				F58D1512193F09CD00B6FBD8 /* vnUnpackingStream.cpp in Sources */,
+				B0187159187EB7F900C9ACAE /* vnAllocatedObject.cpp in Sources */,
+				B0187158187EB7F900C9ACAE /* vnTreeDataScript.cpp in Sources */,
+				B018715B187EB7F900C9ACAE /* vnBuffer.cpp in Sources */,
+				B0187156187EB7F900C9ACAE /* vnLexicalAnalizer.cpp in Sources */,
+				B0331C9B18ACD7BE00CD2E3C /* vnSceneText.cpp in Sources */,
+				B0368AE81884EBD3003D74F3 /* vnUIRoot.cpp in Sources */,
+				F547D2FD195A7A6800F0E012 /* vnLinkImpl.cpp in Sources */,
+				B018715C187EB7F900C9ACAE /* vnColor.cpp in Sources */,
+				B018715F187EB7F900C9ACAE /* vnFileManager.cpp in Sources */,
+				B0187157187EB7F900C9ACAE /* vnToken.cpp in Sources */,
+				B026A36F18D970D500A54039 /* vnSceneNodeAnimator.cpp in Sources */,
+				B0368B76188547E7003D74F3 /* vnUIFrame.cpp in Sources */,
+				B0187153187EB7F900C9ACAE /* vnLR_Node.cpp in Sources */,
+				B02EBA76187FBAAB00F393D0 /* vnTextureImpl.cpp in Sources */,
+				B03C87871883F52300CDE0B3 /* vnUIRenderer.cpp in Sources */,
+				B0187162187EB7F900C9ACAE /* vnMath.cpp in Sources */,
+				B0187165187EB7F900C9ACAE /* vnNonCopyable.cpp in Sources */,
+				F58D1515193F0B2500B6FBD8 /* vnCompressedInt.cpp in Sources */,
+				B03C87781883EE5C00CDE0B3 /* vnUIFactory.cpp in Sources */,
+				B0368AF318850AFA003D74F3 /* vnUILocatorBorder.cpp in Sources */,
+				B018715D187EB7F900C9ACAE /* vnDataStream.cpp in Sources */,
+				B0187167187EB7F900C9ACAE /* vnPictureManager.cpp in Sources */,
+				B02EBA73187FB8E700F393D0 /* vnDeviceImpl.mm in Sources */,
+				B0187154187EB7F900C9ACAE /* vnLR_Parser.cpp in Sources */,
+				B03C878A1883FD9A00CDE0B3 /* vnUIElement.cpp in Sources */,
+				B018716B187EB7F900C9ACAE /* vnSceneObject.cpp in Sources */,
+				B018716E187EB7F900C9ACAE /* vnTextureManager.cpp in Sources */,
+				B018716D187EB7F900C9ACAE /* vnTexture.cpp in Sources */,
+				B018714F187EB7F900C9ACAE /* vnApplicationImpl.mm in Sources */,
+				B0368AFC18851E1F003D74F3 /* vnUILabel.cpp in Sources */,
+				B08E5BB91886799400A2E60A /* vnSceneCamera.cpp in Sources */,
+				F58D1511193F09CD00B6FBD8 /* vnPackingStream.cpp in Sources */,
+				B02EBAB11880090B00F393D0 /* vnFontImpl.mm in Sources */,
+				B02EBA65187F942500F393D0 /* vnGLESView.mm in Sources */,
+				B0E41D8618DADE1F00443F02 /* vnUIRenderEffect.cpp in Sources */,
+				B0187161187EB7F900C9ACAE /* vnLog.cpp in Sources */,
+				B0187152187EB7F900C9ACAE /* vnFileSystem.cpp in Sources */,
+				B018716F187EB7F900C9ACAE /* vnTreeData.cpp in Sources */,
+				B0187169187EB7F900C9ACAE /* vnRefCounted.cpp in Sources */,
+				B0187170187EB7F900C9ACAE /* vnTreeDataParser.cpp in Sources */,
+				B018716C187EB7F900C9ACAE /* vnSingletonManager.cpp in Sources */,
+				B03C8768188393CB00CDE0B3 /* vnFont.cpp in Sources */,
+				B018716A187EB7F900C9ACAE /* vnSceneNode.cpp in Sources */,
+				B03C87991884175A00CDE0B3 /* vnUIPicture.cpp in Sources */,
+				F58D1510193F09CD00B6FBD8 /* vnLinkBuffer.cpp in Sources */,
+				B0187166187EB7F900C9ACAE /* vnPicture.cpp in Sources */,
+				B0368AF518850AFA003D74F3 /* vnUILocatorRect.cpp in Sources */,
+				B08E5BC3188692B600A2E60A /* vnSceneQuad.cpp in Sources */,
+				B055A71618CEBA5D00655A25 /* vnSceneNodeContainer.cpp in Sources */,
+				B0187168187EB7F900C9ACAE /* vnQuad.cpp in Sources */,
+				B0187151187EB7F900C9ACAE /* vnFastMutex.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B02EBA82187FCE5E00F393D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = png_ios;
+			targetProxy = B02EBA81187FCE5E00F393D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0187061187EB58B00C9ACAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../inc ../../dep/libpng/inc";
+			};
+			name = Debug;
+		};
+		B0187062187EB58B00C9ACAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../inc ../../dep/libpng/inc";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0187064187EB58B00C9ACAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/vn2d.dst;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../dep/libogg/inc,
+					../../dep/libvorbis/inc,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../inc ../../dep/libpng/inc";
+			};
+			name = Debug;
+		};
+		B0187065187EB58B00C9ACAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/vn2d.dst;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../dep/libogg/inc,
+					../../dep/libvorbis/inc,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../inc ../../dep/libpng/inc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B018703B187EB58B00C9ACAE /* Build configuration list for PBXProject "vn2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0187061187EB58B00C9ACAE /* Debug */,
+				B0187062187EB58B00C9ACAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0187063187EB58B00C9ACAE /* Build configuration list for PBXNativeTarget "vn2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0187064187EB58B00C9ACAE /* Debug */,
+				B0187065187EB58B00C9ACAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0187038187EB58B00C9ACAE /* Project object */;
+}
